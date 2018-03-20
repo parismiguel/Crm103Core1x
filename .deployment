@@ -1,0 +1,5 @@
+﻿[config]
+project = AbpCompanyName.AbpProjectName.Web.Mvc/AbpCompanyName.AbpProjectName.Web.Mvc.csproj
+
+# https://console.bluemix.net/docs/runtimes/dotnet/compile_pub_deploy.html#publish_configure_deploy
+# https://docs.cloudfoundry.org/buildpacks/dotnet-core/index.html#multiple-projects

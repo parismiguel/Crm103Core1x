@@ -1,0 +1,72 @@
+﻿@using AbpCompanyName.AbpProjectName.Configuration.Ui
+@model AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.RightSideBar.RightSideBarViewModel
+<aside id="rightsidebar" class="right-sidebar">
+    <ul class="nav nav-tabs tab-nav-right" role="tablist">
+        <li role="presentation" class="active"><a href="#skins" data-toggle="tab">TEMAS</a></li>
+        <li role="presentation"><a href="#settings" data-toggle="tab">CONFIGURACIONES</a></li>
+    </ul>
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane fade in active in active" id="skins">
+            <ul class="demo-choose-skin">
+                @foreach (var theme in UiThemes.All)
+                {
+                    <li data-theme="@theme.CssClass" class="@(theme.CssClass == Model.CurrentTheme.CssClass ? "active" : "")">
+                        <div class="@theme.CssClass"></div>
+                        <span>@theme.Name</span>
+                    </li>
+                }
+            </ul>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="settings">
+            <div class="demo-settings">
+                <p>CONFIGURACIÓN GENERAL</p>
+                <ul class="setting-list">
+                    <li>
+                        <span>Consumo del Panel de Reporte</span>
+                        <div class="switch">
+                            <label><input type="checkbox" checked><span class="lever"></span></label>
+                        </div>
+                    </li>
+                    <li>
+                        <span>Redirección de Correo Electrónico</span>
+                        <div class="switch">
+                            <label><input type="checkbox"><span class="lever"></span></label>
+                        </div>
+                    </li>
+                </ul>
+                <p>CONFIGURACIÓN DE SISTEMA</p>
+                <ul class="setting-list">
+                    <li>
+                        <span>Notificaciones</span>
+                        <div class="switch">
+                            <label><input type="checkbox" checked><span class="lever"></span></label>
+                        </div>
+                    </li>
+                    <li>
+                        <span>Actualizaciones Automáticas</span>
+                        <div class="switch">
+                            <label><input type="checkbox" checked><span class="lever"></span></label>
+                        </div>
+                    </li>
+                </ul>
+                <p>CONFIGURACIÓN DE LA CUENTA</p>
+                <ul class="setting-list">
+                    <li>
+                        <span>Fuera de Línea</span>
+                        <div class="switch">
+                            <label><input type="checkbox"><span class="lever"></span></label>
+                        </div>
+                    </li>
+                    <li>
+                        <span>Permiso de Localización</span>
+                        <div class="switch">
+                            <label><input type="checkbox" checked><span class="lever"></span></label>
+                        </div>
+                    </li>
+                </ul>
+                
+                <p style="color: red;">Objeto en construcción!</p>
+            </div>
+        </div>
+    </div>
+</aside>
