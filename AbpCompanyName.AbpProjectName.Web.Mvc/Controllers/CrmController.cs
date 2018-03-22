@@ -22,6 +22,7 @@ namespace AbpCompanyName.AbpProjectName.Web.Mvc.Controllers
     public class CrmController : AbpController
     {
         [HttpPost]
+        [RemoteService]
         [AllowAnonymous]
         public JsonResult SavePerson(SavePersonModel person)
         {
@@ -36,6 +37,7 @@ namespace AbpCompanyName.AbpProjectName.Web.Mvc.Controllers
 
         [HttpPost]
         [RemoteService]
+        [AllowAnonymous]
         public JsonResult GetPhoneNumber(string text)
         {
             Response response = new Response();

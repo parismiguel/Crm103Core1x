@@ -21055,3 +21055,308 @@ INFO  2018-03-22 15:36:32,690 [25   ] matters.Json.Internal.JsonResultExecutor -
 INFO  2018-03-22 15:36:32,690 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.SavePerson (AbpCompanyName.AbpProjectName.Web.Mvc) in 331.5833ms
 DEBUG 2018-03-22 15:36:32,690 [25   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6HEUIU2E" completed keep alive response.
 INFO  2018-03-22 15:36:32,690 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 337.5092ms 200 application/json; charset=utf-8
+DEBUG 2018-03-22 15:38:00,092 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6HEUIU2F" received FIN.
+DEBUG 2018-03-22 15:38:00,093 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6HEUIU2E" received FIN.
+DEBUG 2018-03-22 15:38:00,093 [8    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6HEUIU2E" disconnecting.
+DEBUG 2018-03-22 15:38:00,093 [25   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6HEUIU2F" disconnecting.
+DEBUG 2018-03-22 15:38:00,094 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6HEUIU2E" sending FIN.
+DEBUG 2018-03-22 15:38:00,095 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6HEUIU2F" sending FIN.
+DEBUG 2018-03-22 15:38:00,098 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6HEUIU2F" sent FIN with status "0".
+DEBUG 2018-03-22 15:38:00,102 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6HEUIU2F" stopped.
+DEBUG 2018-03-22 15:38:00,102 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6HEUIU2E" sent FIN with status "0".
+DEBUG 2018-03-22 15:38:00,102 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6HEUIU2E" stopped.
+DEBUG 2018-03-22 15:38:17,967 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6HEUIU2G" started.
+INFO  2018-03-22 15:38:17,967 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44309/Crm/SavePerson application/json 49
+DEBUG 2018-03-22 15:38:17,970 [9    ] NetCore.StaticFiles.StaticFileMiddleware - POST requests are not supported
+DEBUG 2018-03-22 15:38:17,970 [9    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 15:38:17,970 [9    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 15:38:17,970 [9    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 15:38:17,975 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.SavePerson (AbpCompanyName.AbpProjectName.Web.Mvc)
+INFO  2018-03-22 15:38:17,978 [9    ] idateAntiforgeryTokenAuthorizationFilter - Antiforgery token validation failed. The required antiforgery header value "X-XSRF-TOKEN" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery header value "X-XSRF-TOKEN" is not present.
+   at Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgery.<ValidateRequestAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ValidateAntiforgeryTokenAuthorizationFilter.<OnAuthorizationAsync>d__3.MoveNext()
+INFO  2018-03-22 15:38:18,007 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2018-03-22 15:38:18,009 [9    ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2018-03-22 15:38:18,009 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.SavePerson (AbpCompanyName.AbpProjectName.Web.Mvc) in 34.1503ms
+DEBUG 2018-03-22 15:38:18,012 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6HEUIU2G" completed keep alive response.
+INFO  2018-03-22 15:38:18,012 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 45.2148ms 400 
+DEBUG 2018-03-22 15:39:50,092 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6HEUIU2G" received FIN.
+DEBUG 2018-03-22 15:39:50,092 [8    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6HEUIU2G" disconnecting.
+DEBUG 2018-03-22 15:39:50,093 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6HEUIU2G" sending FIN.
+DEBUG 2018-03-22 15:39:50,093 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6HEUIU2G" sent FIN with status "0".
+DEBUG 2018-03-22 15:39:50,093 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6HEUIU2G" stopped.
+DEBUG 2018-03-22 15:41:23,287 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6HEUIU2H" started.
+INFO  2018-03-22 15:41:23,287 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44309/Crm/SavePerson application/json 49
+DEBUG 2018-03-22 15:41:23,288 [25   ] NetCore.StaticFiles.StaticFileMiddleware - POST requests are not supported
+DEBUG 2018-03-22 15:41:23,288 [25   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 15:41:23,288 [25   ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 15:41:23,288 [25   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 15:41:23,297 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.SavePerson (AbpCompanyName.AbpProjectName.Web.Mvc)
+INFO  2018-03-22 15:41:23,298 [25   ] idateAntiforgeryTokenAuthorizationFilter - Antiforgery token validation failed. The required antiforgery header value "X-XSRF-TOKEN" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery header value "X-XSRF-TOKEN" is not present.
+   at Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgery.<ValidateRequestAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ValidateAntiforgeryTokenAuthorizationFilter.<OnAuthorizationAsync>d__3.MoveNext()
+INFO  2018-03-22 15:41:23,299 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2018-03-22 15:41:23,300 [25   ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2018-03-22 15:41:23,300 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.SavePerson (AbpCompanyName.AbpProjectName.Web.Mvc) in 2.4667ms
+DEBUG 2018-03-22 15:41:23,300 [25   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6HEUIU2H" completed keep alive response.
+INFO  2018-03-22 15:41:23,300 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12.8695ms 400 
+DEBUG 2018-03-22 15:42:40,300 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-03-22 15:42:40,333 [1    ] Abp.Modules.AbpModuleManager             - Found 14 ABP modules in total.
+DEBUG 2018-03-22 15:42:40,349 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.Web.Startup.AbpProjectNameWebMvcModule, AbpCompanyName.AbpProjectName.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 15:42:40,352 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameWebCoreModule, AbpCompanyName.AbpProjectName.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 15:42:40,353 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameApplicationModule, AbpCompanyName.AbpProjectName.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 15:42:40,354 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameCoreModule, AbpCompanyName.AbpProjectName.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 15:42:40,354 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 15:42:40,355 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 15:42:40,355 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 15:42:40,356 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 15:42:40,356 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.EntityFrameworkCore.AbpProjectNameEntityFrameworkModule, AbpCompanyName.AbpProjectName.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 15:42:40,356 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 15:42:40,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 15:42:40,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 15:42:40,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 15:42:40,358 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 15:42:40,361 [1    ] Abp.Modules.AbpModuleManager             - 14 modules loaded.
+DEBUG 2018-03-22 15:42:40,436 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 15:42:40,436 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 15:42:40,436 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpProjectName-es-PE (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 15:42:40,436 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 15:42:40,766 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AbpCompanyName.AbpProjectName.EntityFrameworkCore.AbpProjectNameDbContext, AbpCompanyName.AbpProjectName.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 15:42:41,260 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-03-22 15:42:41,324 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-03-22 15:42:41,333 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-03-22 15:42:41,337 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpProjectName-es-PE
+DEBUG 2018-03-22 15:42:41,339 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-03-22 15:42:41,413 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-22 15:42:41,499 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2018-03-22 15:42:41,499 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-03-22 15:42:41,502 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Users.Dto.CreateUserDto
+DEBUG 2018-03-22 15:42:41,503 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Users.Dto.UserDto
+DEBUG 2018-03-22 15:42:41,503 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-03-22 15:42:41,503 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-03-22 15:42:41,503 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.CreateRoleDto
+DEBUG 2018-03-22 15:42:41,503 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.PermissionDto
+DEBUG 2018-03-22 15:42:41,503 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.RoleDto
+DEBUG 2018-03-22 15:42:41,503 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-03-22 15:42:41,503 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-03-22 15:42:41,503 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.TenantDto
+DEBUG 2018-03-22 15:42:41,503 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+INFO  2018-03-22 15:42:50,477 [1    ] pendencyInjection.DataProtectionServices - User profile is available. Using 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+DEBUG 2018-03-22 15:42:50,514 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Hosting starting
+DEBUG 2018-03-22 15:42:50,615 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Hosting started
+DEBUG 2018-03-22 15:42:50,658 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6LT8PHAB" started.
+INFO  2018-03-22 15:42:50,761 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44309/About  
+DEBUG 2018-03-22 15:42:50,870 [9    ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with purposes ('D:\PARIS\Visual Studio 2017\Source\TeamServices\Crm103Core1x\AbpCompanyName.AbpProjectName.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+DEBUG 2018-03-22 15:42:50,884 [9    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys\key-6be595eb-efc3-4aad-b35e-1657ea83f925.xml'.
+DEBUG 2018-03-22 15:42:50,897 [9    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys\key-75e373f0-4300-4f53-be2a-906d92f0b8c7.xml'.
+DEBUG 2018-03-22 15:42:50,897 [9    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys\key-ac03204d-d8a4-4cc5-89bc-08b76e42104c.xml'.
+DEBUG 2018-03-22 15:42:50,898 [9    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys\key-ac2d16f4-c9b3-47fa-8d0f-d770982e6a4c.xml'.
+DEBUG 2018-03-22 15:42:50,898 [9    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys\key-bc658bea-04c0-492b-97be-f402d818c6a6.xml'.
+DEBUG 2018-03-22 15:42:50,898 [9    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys\key-f593f375-8fa5-4a6b-a701-1ee25955d56c.xml'.
+DEBUG 2018-03-22 15:42:50,911 [9    ] taProtection.KeyManagement.XmlKeyManager - Found key {6be595eb-efc3-4aad-b35e-1657ea83f925}.
+DEBUG 2018-03-22 15:42:50,956 [9    ] taProtection.KeyManagement.XmlKeyManager - Found key {75e373f0-4300-4f53-be2a-906d92f0b8c7}.
+DEBUG 2018-03-22 15:42:50,956 [9    ] taProtection.KeyManagement.XmlKeyManager - Found key {ac03204d-d8a4-4cc5-89bc-08b76e42104c}.
+DEBUG 2018-03-22 15:42:50,956 [9    ] taProtection.KeyManagement.XmlKeyManager - Found key {ac2d16f4-c9b3-47fa-8d0f-d770982e6a4c}.
+DEBUG 2018-03-22 15:42:50,956 [9    ] taProtection.KeyManagement.XmlKeyManager - Found key {bc658bea-04c0-492b-97be-f402d818c6a6}.
+DEBUG 2018-03-22 15:42:50,956 [9    ] taProtection.KeyManagement.XmlKeyManager - Found key {f593f375-8fa5-4a6b-a701-1ee25955d56c}.
+DEBUG 2018-03-22 15:42:50,968 [9    ] tection.KeyManagement.DefaultKeyResolver - Considering key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with expiration date 2018-04-23 22:41:32Z as default key.
+DEBUG 2018-03-22 15:42:50,981 [9    ] e.DataProtection.TypeForwardingActivator - Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+DEBUG 2018-03-22 15:42:50,984 [9    ] otection.XmlEncryption.DpapiXmlDecryptor - Decrypting secret element using Windows DPAPI.
+DEBUG 2018-03-22 15:42:50,990 [9    ] e.DataProtection.TypeForwardingActivator - Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+DEBUG 2018-03-22 15:42:51,004 [9    ] l.CngCbcAuthenticatedEncryptorDescriptor - Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+DEBUG 2018-03-22 15:42:51,016 [9    ] l.CngCbcAuthenticatedEncryptorDescriptor - Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+DEBUG 2018-03-22 15:42:51,038 [9    ] Protection.KeyManagement.KeyRingProvider - Using key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} as the default key.
+INFO  2018-03-22 15:42:51,848 [9    ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+DEBUG 2018-03-22 15:42:51,857 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The request path /About does not match a supported file type
+DEBUG 2018-03-22 15:42:52,192 [9    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 15:42:52,223 [9    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 15:42:52,224 [9    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 15:42:52,337 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action AbpCompanyName.AbpProjectName.Web.Controllers.AboutController.Index (AbpCompanyName.AbpProjectName.Web.Mvc)
+INFO  2018-03-22 15:42:52,472 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpCompanyName.AbpProjectName.Web.Controllers.AboutController.Index (AbpCompanyName.AbpProjectName.Web.Mvc) with arguments ((null)) - ModelState is Valid
+DEBUG 2018-03-22 15:42:52,477 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method AbpCompanyName.AbpProjectName.Web.Controllers.AboutController.Index (AbpCompanyName.AbpProjectName.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult.
+DEBUG 2018-03-22 15:42:53,327 [9    ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Index' in controller 'About'.
+DEBUG 2018-03-22 15:42:53,359 [9    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/About/Index.cshtml' started.
+DEBUG 2018-03-22 15:42:53,955 [9    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/About/Index.cshtml' completed in 593.3746ms.
+DEBUG 2018-03-22 15:42:53,959 [9    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/About/Index.cshtml' started.
+DEBUG 2018-03-22 15:42:55,684 [9    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/About/Index.cshtml' completed in 1725.2044ms.
+DEBUG 2018-03-22 15:42:55,703 [9    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/_ViewStart.cshtml' started.
+DEBUG 2018-03-22 15:42:55,792 [9    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/_ViewStart.cshtml' completed in 88.8233ms.
+DEBUG 2018-03-22 15:42:55,792 [9    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/_ViewStart.cshtml' started.
+DEBUG 2018-03-22 15:42:55,898 [9    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/_ViewStart.cshtml' completed in 105.4333ms.
+DEBUG 2018-03-22 15:42:55,913 [9    ] ViewFeatures.Internal.ViewResultExecutor - The view 'Index' was found.
+INFO  2018-03-22 15:42:55,923 [9    ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/About/Index.cshtml.
+DEBUG 2018-03-22 15:42:56,082 [9    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/_Layout.cshtml' started.
+DEBUG 2018-03-22 15:42:56,336 [9    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/_Layout.cshtml' completed in 254.4664ms.
+DEBUG 2018-03-22 15:42:56,337 [9    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/_Layout.cshtml' started.
+DEBUG 2018-03-22 15:42:56,764 [9    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/_Layout.cshtml' completed in 426.3614ms.
+DEBUG 2018-03-22 15:42:56,803 [9    ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with purposes ('D:\PARIS\Visual Studio 2017\Source\TeamServices\Crm103Core1x\AbpCompanyName.AbpProjectName.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2018-03-22 15:42:56,822 [9    ] .KeyManagement.KeyRingBasedDataProtector - Performing protect operation to key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with purposes ('D:\PARIS\Visual Studio 2017\Source\TeamServices\Crm103Core1x\AbpCompanyName.AbpProjectName.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2018-03-22 15:42:56,829 [9    ] .Antiforgery.Internal.DefaultAntiforgery - An antiforgery cookie token was reused.
+DEBUG 2018-03-22 15:42:57,567 [8    ] ewComponents.DefaultViewComponentInvoker - Executing view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.TopBarLanguageSwitch.TopBarLanguageSwitchViewComponent with arguments ().
+DEBUG 2018-03-22 15:42:57,584 [8    ] ewComponents.DefaultViewComponentInvoker - Executed view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.TopBarLanguageSwitch.TopBarLanguageSwitchViewComponent in 15.0968ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2018-03-22 15:42:57,588 [8    ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/TopBarLanguageSwitch/Default' in controller 'About'.
+DEBUG 2018-03-22 15:42:57,589 [8    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/TopBarLanguageSwitch/Default.cshtml' started.
+DEBUG 2018-03-22 15:42:57,609 [8    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/TopBarLanguageSwitch/Default.cshtml' completed in 19.1482ms.
+DEBUG 2018-03-22 15:42:57,609 [8    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/TopBarLanguageSwitch/Default.cshtml' started.
+DEBUG 2018-03-22 15:42:57,668 [8    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/TopBarLanguageSwitch/Default.cshtml' completed in 59.0028ms.
+DEBUG 2018-03-22 15:42:57,784 [8    ] ewComponents.DefaultViewComponentInvoker - Executing view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.SideBarUserArea.SideBarUserAreaViewComponent with arguments ().
+DEBUG 2018-03-22 15:42:58,408 [10   ] ewComponents.DefaultViewComponentInvoker - Executed view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.SideBarUserArea.SideBarUserAreaViewComponent in 622.5776ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2018-03-22 15:42:58,408 [10   ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/SideBarUserArea/Default' in controller 'About'.
+DEBUG 2018-03-22 15:42:58,409 [10   ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/SideBarUserArea/Default.cshtml' started.
+DEBUG 2018-03-22 15:42:58,420 [10   ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/SideBarUserArea/Default.cshtml' completed in 11.1091ms.
+DEBUG 2018-03-22 15:42:58,420 [10   ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/SideBarUserArea/Default.cshtml' started.
+DEBUG 2018-03-22 15:42:58,483 [10   ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/SideBarUserArea/Default.cshtml' completed in 62.8223ms.
+DEBUG 2018-03-22 15:42:59,132 [10   ] ewComponents.DefaultViewComponentInvoker - Executing view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.SideBarNav.SideBarNavViewComponent with arguments (About).
+DEBUG 2018-03-22 15:43:01,625 [4    ] ewComponents.DefaultViewComponentInvoker - Executed view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.SideBarNav.SideBarNavViewComponent in 2492.5592ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2018-03-22 15:43:01,625 [4    ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/SideBarNav/Default' in controller 'About'.
+DEBUG 2018-03-22 15:43:01,626 [4    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/SideBarNav/Default.cshtml' started.
+DEBUG 2018-03-22 15:43:01,642 [4    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/SideBarNav/Default.cshtml' completed in 16.3745ms.
+DEBUG 2018-03-22 15:43:01,642 [4    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/SideBarNav/Default.cshtml' started.
+DEBUG 2018-03-22 15:43:01,718 [4    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/SideBarNav/Default.cshtml' completed in 76.1817ms.
+DEBUG 2018-03-22 15:43:01,734 [4    ] ewComponents.DefaultViewComponentInvoker - Executing view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.RightSideBar.RightSideBarViewComponent with arguments ().
+DEBUG 2018-03-22 15:43:01,738 [4    ] ewComponents.DefaultViewComponentInvoker - Executed view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.RightSideBar.RightSideBarViewComponent in 3.8052ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2018-03-22 15:43:01,738 [4    ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/RightSideBar/Default' in controller 'About'.
+DEBUG 2018-03-22 15:43:01,739 [4    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/RightSideBar/Default.cshtml' started.
+DEBUG 2018-03-22 15:43:01,752 [4    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/RightSideBar/Default.cshtml' completed in 13.0129ms.
+DEBUG 2018-03-22 15:43:01,752 [4    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/RightSideBar/Default.cshtml' started.
+DEBUG 2018-03-22 15:43:01,802 [4    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/RightSideBar/Default.cshtml' completed in 49.726ms.
+INFO  2018-03-22 15:43:02,068 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpCompanyName.AbpProjectName.Web.Controllers.AboutController.Index (AbpCompanyName.AbpProjectName.Web.Mvc) in 9730.5073ms
+DEBUG 2018-03-22 15:43:02,131 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6LT8PHAB" completed keep alive response.
+INFO  2018-03-22 15:43:02,148 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11398.2587ms 200 text/html; charset=utf-8
+INFO  2018-03-22 15:43:02,201 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44309/AbpServiceProxies/GetAll?v=636573301614163848  
+DEBUG 2018-03-22 15:43:02,225 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6LT8PHAC" started.
+INFO  2018-03-22 15:43:02,234 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44309/AbpScripts/GetScripts?v=636573301614163848  
+DEBUG 2018-03-22 15:43:02,243 [4    ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with purposes ('D:\PARIS\Visual Studio 2017\Source\TeamServices\Crm103Core1x\AbpCompanyName.AbpProjectName.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+DEBUG 2018-03-22 15:43:02,243 [3    ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with purposes ('D:\PARIS\Visual Studio 2017\Source\TeamServices\Crm103Core1x\AbpCompanyName.AbpProjectName.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2018-03-22 15:43:02,251 [3    ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+DEBUG 2018-03-22 15:43:02,251 [3    ] NetCore.StaticFiles.StaticFileMiddleware - The request path /AbpScripts/GetScripts does not match a supported file type
+DEBUG 2018-03-22 15:43:02,252 [3    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 15:43:02,252 [3    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 15:43:02,252 [3    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+INFO  2018-03-22 15:43:02,252 [4    ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+DEBUG 2018-03-22 15:43:02,252 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The request path /AbpServiceProxies/GetAll does not match a supported file type
+DEBUG 2018-03-22 15:43:02,252 [4    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 15:43:02,252 [4    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 15:43:02,252 [4    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 15:43:02,254 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+DEBUG 2018-03-22 15:43:02,255 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2018-03-22 15:43:02,358 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-03-22 15:43:02,497 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+DEBUG 2018-03-22 15:43:02,883 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ObjectResult.
+DEBUG 2018-03-22 15:43:02,914 [4    ] etCore.Mvc.Internal.ObjectResultExecutor - No information found on request to perform content negotiation.
+DEBUG 2018-03-22 15:43:02,923 [4    ] etCore.Mvc.Internal.ObjectResultExecutor - Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/javascript' to write the response.
+INFO  2018-03-22 15:43:02,924 [4    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-03-22 15:43:02,940 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 685.4177ms
+DEBUG 2018-03-22 15:43:02,940 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6LT8PHAB" completed keep alive response.
+INFO  2018-03-22 15:43:02,940 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 739.0742ms 200 text/javascript; charset=utf-8
+DEBUG 2018-03-22 15:43:03,650 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult.
+INFO  2018-03-22 15:43:03,818 [3    ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-03-22 15:43:03,820 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 1564.9392ms
+DEBUG 2018-03-22 15:43:03,820 [3    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6LT8PHAC" completed keep alive response.
+INFO  2018-03-22 15:43:03,820 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1585.855ms 200 application/x-javascript; charset=utf-8
+INFO  2018-03-22 15:43:04,208 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44309/favicon.ico  
+DEBUG 2018-03-22 15:43:04,213 [8    ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with purposes ('D:\PARIS\Visual Studio 2017\Source\TeamServices\Crm103Core1x\AbpCompanyName.AbpProjectName.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2018-03-22 15:43:04,253 [8    ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+INFO  2018-03-22 15:43:04,454 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'D:\PARIS\Visual Studio 2017\Source\TeamServices\Crm103Core1x\AbpCompanyName.AbpProjectName.Web.Mvc\wwwroot\favicon.ico'
+DEBUG 2018-03-22 15:43:04,503 [8    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6LT8PHAB" completed keep alive response.
+INFO  2018-03-22 15:43:04,503 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 295.7176ms 200 image/x-icon
+INFO  2018-03-22 15:43:30,280 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44309/Crm/SavePerson application/json 49
+DEBUG 2018-03-22 15:43:30,283 [3    ] NetCore.StaticFiles.StaticFileMiddleware - POST requests are not supported
+DEBUG 2018-03-22 15:43:30,284 [3    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 15:43:30,284 [3    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 15:43:30,284 [3    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 15:43:30,295 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.SavePerson (AbpCompanyName.AbpProjectName.Web.Mvc)
+INFO  2018-03-22 15:43:30,308 [3    ] idateAntiforgeryTokenAuthorizationFilter - Antiforgery token validation failed. The required antiforgery header value "X-XSRF-TOKEN" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery header value "X-XSRF-TOKEN" is not present.
+   at Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgery.<ValidateRequestAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ValidateAntiforgeryTokenAuthorizationFilter.<OnAuthorizationAsync>d__3.MoveNext()
+INFO  2018-03-22 15:43:30,329 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2018-03-22 15:43:30,331 [3    ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2018-03-22 15:43:30,331 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.SavePerson (AbpCompanyName.AbpProjectName.Web.Mvc) in 35.8743ms
+DEBUG 2018-03-22 15:43:30,336 [3    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6LT8PHAC" completed keep alive response.
+INFO  2018-03-22 15:43:30,336 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 55.93ms 400 
+DEBUG 2018-03-22 15:44:31,933 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6LT8PHAB" received FIN.
+DEBUG 2018-03-22 15:44:31,933 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6LT8PHAC" received FIN.
+DEBUG 2018-03-22 15:44:31,933 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6LT8PHAD" started.
+INFO  2018-03-22 15:44:31,933 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44309/Crm/SavePerson application/json 49
+DEBUG 2018-03-22 15:44:31,934 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6LT8PHAC" disconnecting.
+DEBUG 2018-03-22 15:44:31,934 [3    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6LT8PHAB" disconnecting.
+DEBUG 2018-03-22 15:44:31,934 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6LT8PHAC" sending FIN.
+DEBUG 2018-03-22 15:44:31,934 [8    ] NetCore.StaticFiles.StaticFileMiddleware - POST requests are not supported
+DEBUG 2018-03-22 15:44:31,934 [8    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 15:44:31,934 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6LT8PHAB" sending FIN.
+DEBUG 2018-03-22 15:44:31,934 [8    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 15:44:31,934 [8    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 15:44:31,939 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6LT8PHAB" sent FIN with status "0".
+DEBUG 2018-03-22 15:44:31,939 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6LT8PHAC" sent FIN with status "0".
+DEBUG 2018-03-22 15:44:31,939 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.SavePerson (AbpCompanyName.AbpProjectName.Web.Mvc)
+INFO  2018-03-22 15:44:31,940 [8    ] idateAntiforgeryTokenAuthorizationFilter - Antiforgery token validation failed. The required antiforgery header value "X-XSRF-TOKEN" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery header value "X-XSRF-TOKEN" is not present.
+   at Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgery.<ValidateRequestAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ValidateAntiforgeryTokenAuthorizationFilter.<OnAuthorizationAsync>d__3.MoveNext()
+INFO  2018-03-22 15:44:31,942 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2018-03-22 15:44:31,942 [8    ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2018-03-22 15:44:31,942 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.SavePerson (AbpCompanyName.AbpProjectName.Web.Mvc) in 2.7255ms
+DEBUG 2018-03-22 15:44:31,942 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6LT8PHAB" stopped.
+DEBUG 2018-03-22 15:44:31,942 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6LT8PHAC" stopped.
+DEBUG 2018-03-22 15:44:31,943 [8    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6LT8PHAD" completed keep alive response.
+INFO  2018-03-22 15:44:31,943 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.3522ms 400 
+INFO  2018-03-22 15:45:04,916 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44309/Crm/SavePerson application/json 
+DEBUG 2018-03-22 15:45:04,917 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The request path /Crm/SavePerson does not match a supported file type
+DEBUG 2018-03-22 15:45:04,917 [4    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 15:45:04,917 [4    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 15:45:04,918 [4    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 15:45:04,921 [4    ] t.AspNetCore.Mvc.Internal.ActionSelector - Action 'AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.SavePerson (AbpCompanyName.AbpProjectName.Web.Mvc)' with id '0206c69c-7cd3-415d-b387-30015574e094' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint'
+DEBUG 2018-03-22 15:45:04,921 [4    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 15:45:04,922 [4    ] soft.AspNetCore.Builder.RouterMiddleware - Request did not match any routes.
+DEBUG 2018-03-22 15:45:04,924 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6LT8PHAD" completed keep alive response.
+INFO  2018-03-22 15:45:04,924 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.7637ms 404 
+INFO  2018-03-22 15:45:11,835 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44309/Crm/SavePerson application/json 49
+DEBUG 2018-03-22 15:45:11,836 [8    ] NetCore.StaticFiles.StaticFileMiddleware - POST requests are not supported
+DEBUG 2018-03-22 15:45:11,836 [8    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 15:45:11,836 [8    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 15:45:11,836 [8    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 15:45:11,839 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.SavePerson (AbpCompanyName.AbpProjectName.Web.Mvc)
+INFO  2018-03-22 15:45:11,840 [8    ] idateAntiforgeryTokenAuthorizationFilter - Antiforgery token validation failed. The required antiforgery header value "X-XSRF-TOKEN" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery header value "X-XSRF-TOKEN" is not present.
+   at Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgery.<ValidateRequestAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ValidateAntiforgeryTokenAuthorizationFilter.<OnAuthorizationAsync>d__3.MoveNext()
+INFO  2018-03-22 15:45:11,843 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2018-03-22 15:45:11,843 [8    ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2018-03-22 15:45:11,843 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.SavePerson (AbpCompanyName.AbpProjectName.Web.Mvc) in 3.4532ms
+DEBUG 2018-03-22 15:45:11,843 [8    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6LT8PHAD" completed keep alive response.
+INFO  2018-03-22 15:45:11,843 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.3693ms 400 
+INFO  2018-03-22 15:45:22,797 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44309/Crm/SavePerson application/json 35
+DEBUG 2018-03-22 15:45:22,798 [9    ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with purposes ('D:\PARIS\Visual Studio 2017\Source\TeamServices\Crm103Core1x\AbpCompanyName.AbpProjectName.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2018-03-22 15:45:22,801 [9    ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+DEBUG 2018-03-22 15:45:22,801 [9    ] NetCore.StaticFiles.StaticFileMiddleware - POST requests are not supported
+DEBUG 2018-03-22 15:45:22,801 [9    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 15:45:22,801 [9    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 15:45:22,801 [9    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 15:45:22,802 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.SavePerson (AbpCompanyName.AbpProjectName.Web.Mvc)
+DEBUG 2018-03-22 15:45:22,804 [9    ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with purposes ('D:\PARIS\Visual Studio 2017\Source\TeamServices\Crm103Core1x\AbpCompanyName.AbpProjectName.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2018-03-22 15:45:22,804 [9    ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with purposes ('D:\PARIS\Visual Studio 2017\Source\TeamServices\Crm103Core1x\AbpCompanyName.AbpProjectName.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2018-03-22 15:45:22,807 [9    ] .Antiforgery.Internal.DefaultAntiforgery - Antiforgery successfully validated a request.
+INFO  2018-03-22 15:45:22,832 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.SavePerson (AbpCompanyName.AbpProjectName.Web.Mvc) with arguments (AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.SavePersonModel) - ModelState is Valid
+DEBUG 2018-03-22 15:45:22,833 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.SavePerson (AbpCompanyName.AbpProjectName.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.JsonResult.
+INFO  2018-03-22 15:45:23,358 [8    ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-03-22 15:45:23,378 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.SavePerson (AbpCompanyName.AbpProjectName.Web.Mvc) in 575.6754ms
+DEBUG 2018-03-22 15:45:23,378 [8    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6LT8PHAD" completed keep alive response.
+INFO  2018-03-22 15:45:23,378 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 581.3552ms 200 application/json; charset=utf-8
