@@ -31,7 +31,7 @@ namespace AbpCompanyName.AbpProjectName.Web.Mvc.Controllers
             //https://aspnetboilerplate.com/Pages/Documents/Javascript-API/AJAX
 
 
-            return Json(new { PersonId = 42 });
+            return Json(new { PersonId = 123456 });
         }
 
         [HttpPost]

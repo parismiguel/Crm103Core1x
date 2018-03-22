@@ -5,19 +5,19 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AbpCompanyName.AbpProjectName.Web.Controllers
 {
-    [AbpMvcAuthorize]
-    public class HomeController : AbpProjectNameControllerBase
-    {
-        public static IHostingEnvironment _wwwRoot;
+	[AbpMvcAuthorize]
+	public class HomeController : AbpProjectNameControllerBase
+	{
+		public static IHostingEnvironment _wwwRoot;
 
-        public HomeController(IHostingEnvironment environment)
-        {
-            _wwwRoot = environment;
-        }
+		public HomeController(IHostingEnvironment environment)
+		{
+			_wwwRoot = environment;
+		}
 
-        public ActionResult Index()
-        {
-            return View();
-        }
+		public ActionResult Index()
+		{
+			return View();
+		}
 	}
 }
