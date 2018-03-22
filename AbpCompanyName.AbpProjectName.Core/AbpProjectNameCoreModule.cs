@@ -33,6 +33,7 @@ namespace AbpCompanyName.AbpProjectName
             AppRoleConfig.Configure(Configuration.Modules.Zero().RoleManagement);
 
             Configuration.Settings.Providers.Add<AppSettingProvider>();
+
         }
 
         public override void Initialize()

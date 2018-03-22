@@ -25,6 +25,7 @@ namespace AbpCompanyName.AbpProjectName.EntityFrameworkCore
                 {
                     AbpProjectNameDbContextConfigurer.Configure(configuration.DbContextOptions, configuration.ConnectionString);
                 });
+
             }
         }
 

@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Abp.Application.Services;
 using Abp.AspNetCore.Mvc.Authorization;
@@ -22,11 +23,13 @@ namespace AbpCompanyName.AbpProjectName.Web.Mvc.Controllers
     public class CrmController : AbpController
     {
         [HttpPost]
-        [RemoteService]
         [AllowAnonymous]
+        [IgnoreAntiforgeryToken]
         public JsonResult SavePerson(SavePersonModel person)
         {
             //TODO: save new person to database and return new person's id
+
+            // https://aspnetboilerplate.com/Pages/Documents/XSRF-CSRF-Protection
 
             //https://aspnetboilerplate.com/Pages/Documents/Authorization
             //https://aspnetboilerplate.com/Pages/Documents/Javascript-API/AJAX
@@ -36,8 +39,8 @@ namespace AbpCompanyName.AbpProjectName.Web.Mvc.Controllers
         }
 
         [HttpPost]
-        [RemoteService]
         [AllowAnonymous]
+        [IgnoreAntiforgeryToken]
         public JsonResult GetPhoneNumber(string text)
         {
             Response response = new Response();
@@ -60,19 +63,28 @@ namespace AbpCompanyName.AbpProjectName.Web.Mvc.Controllers
                     {
                         switch (item.Type)
                         {
-                            case "LOCAL_COUNTRY":
-                                _country = item.Text;
+                            case "Organization":
+                                _entity = item.Text;
+                                break;
+                            case "Location":
+                                if (item.Disambiguation.Subtype[0].StartsWith("City"))
+                                {
+                                    _district = item.Text;
+                                }
+
+                                if (item.Disambiguation.Subtype[0].StartsWith("Country"))
+                                {
+                                    _country = item.Text;
+                                }
+
                                 break;
 
-                            case "LOCAL_DISTRICT":
-                                _district = item.Text;
-                                break;
                             default:
                                 break;
                         }
                     }
 
-                    _entity = _nlu.Entities.FirstOrDefault()?.Text;
+                    //_entity = _nlu.Entities.FirstOrDefault()?.Text;
 
                     if (string.IsNullOrEmpty(_entity))
                     {
@@ -110,7 +122,16 @@ namespace AbpCompanyName.AbpProjectName.Web.Mvc.Controllers
                 }
 
                 response.Status = true;
-                response.Message = $"El número de teléfono de {_entity} es: {resultText}";
+
+                if (Regex.IsMatch(resultText, @"^\d+$"))
+                {
+                    response.Message = $"El número de teléfono de {_entity} es: {resultText}";
+                }
+                else
+                {
+                    response.Message = resultText;
+                }
+
 
             }
             catch (ArgumentException e)
@@ -157,14 +178,48 @@ namespace AbpCompanyName.AbpProjectName.Web.Mvc.Controllers
 
                     var _text = Helpers.ConvertStringToUTF8(item.ChildNodes[1].ChildNodes[1].InnerText);
 
-                    _result = $"Título: {_title}, Link: {_link}, Texto: {_text}";
+                    if (!string.IsNullOrEmpty(_text))
+                    {
+                        int? phoneNumber = GetPhoneNumber(_text, 7, 9);
 
+                        if (phoneNumber != null)
+                        {
+                            return phoneNumber.ToString();
+                        }
+                    }
+
+                    //_result = $"Título: {_title}, Link: {_link}, Texto: {_text}";
+
+                }
+            }
+
+            _result = "No se ha encontrado el número";
+
+            return _result;
+        }
+
+        internal static int? GetPhoneNumber(string text, int min, int max)
+        {
+            text = new String(text.ToCharArray().Where(c => Char.IsDigit(c)).ToArray()); //Get only digits
+
+            bool isValidDigits = false;
+
+            for (int i = min; i < max + 1; i++)
+            {
+                isValidDigits = Regex.Match(text, @"^([0-9]{" + i + "})$").Success;
+
+                if (isValidDigits)
+                {
                     break;
                 }
             }
 
+            if (isValidDigits)
+            {
+                return int.Parse(text);
+            }
 
-            return _result;
+            return null;
         }
 
 
@@ -175,4 +230,6 @@ namespace AbpCompanyName.AbpProjectName.Web.Mvc.Controllers
         public string Name { get; set; }
         public int Age { get; set; }
     }
+
+
 }

@@ -53,6 +53,7 @@ namespace AbpCompanyName.AbpProjectName
                  );
 
             ConfigureTokenAuth();
+
         }
 
         private void ConfigureTokenAuth()

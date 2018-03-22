@@ -21360,3 +21360,1077 @@ INFO  2018-03-22 15:45:23,358 [8    ] matters.Json.Internal.JsonResultExecutor -
 INFO  2018-03-22 15:45:23,378 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.SavePerson (AbpCompanyName.AbpProjectName.Web.Mvc) in 575.6754ms
 DEBUG 2018-03-22 15:45:23,378 [8    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG6LT8PHAD" completed keep alive response.
 INFO  2018-03-22 15:45:23,378 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 581.3552ms 200 application/json; charset=utf-8
+DEBUG 2018-03-22 16:07:42,160 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-03-22 16:07:42,208 [1    ] Abp.Modules.AbpModuleManager             - Found 14 ABP modules in total.
+DEBUG 2018-03-22 16:07:42,226 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.Web.Startup.AbpProjectNameWebMvcModule, AbpCompanyName.AbpProjectName.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:07:42,230 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameWebCoreModule, AbpCompanyName.AbpProjectName.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:07:42,230 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameApplicationModule, AbpCompanyName.AbpProjectName.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:07:42,230 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameCoreModule, AbpCompanyName.AbpProjectName.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:07:42,231 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:07:42,231 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:07:42,231 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:07:42,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:07:42,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.EntityFrameworkCore.AbpProjectNameEntityFrameworkModule, AbpCompanyName.AbpProjectName.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:07:42,233 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:07:42,233 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:07:42,233 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:07:42,234 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:07:42,234 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:07:42,238 [1    ] Abp.Modules.AbpModuleManager             - 14 modules loaded.
+DEBUG 2018-03-22 16:07:42,308 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 16:07:42,309 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 16:07:42,309 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpProjectName-es-PE (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 16:07:42,309 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 16:07:42,622 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AbpCompanyName.AbpProjectName.EntityFrameworkCore.AbpProjectNameDbContext, AbpCompanyName.AbpProjectName.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:07:43,278 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-03-22 16:07:43,341 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-03-22 16:07:43,350 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-03-22 16:07:43,357 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpProjectName-es-PE
+DEBUG 2018-03-22 16:07:43,358 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-03-22 16:07:43,426 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-22 16:07:43,499 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2018-03-22 16:07:43,499 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-03-22 16:07:43,504 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Users.Dto.CreateUserDto
+DEBUG 2018-03-22 16:07:43,505 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Users.Dto.UserDto
+DEBUG 2018-03-22 16:07:43,505 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-03-22 16:07:43,505 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-03-22 16:07:43,505 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.CreateRoleDto
+DEBUG 2018-03-22 16:07:43,505 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.PermissionDto
+DEBUG 2018-03-22 16:07:43,505 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.RoleDto
+DEBUG 2018-03-22 16:07:43,505 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-03-22 16:07:43,505 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-03-22 16:07:43,505 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.TenantDto
+DEBUG 2018-03-22 16:07:43,505 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+INFO  2018-03-22 16:07:52,909 [1    ] pendencyInjection.DataProtectionServices - User profile is available. Using 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+DEBUG 2018-03-22 16:07:52,959 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Hosting starting
+DEBUG 2018-03-22 16:07:53,060 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Hosting started
+DEBUG 2018-03-22 16:07:53,304 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG73T355IP" started.
+INFO  2018-03-22 16:07:53,405 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44309/  
+DEBUG 2018-03-22 16:07:53,557 [8    ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with purposes ('D:\PARIS\Visual Studio 2017\Source\TeamServices\Crm103Core1x\AbpCompanyName.AbpProjectName.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+DEBUG 2018-03-22 16:07:53,568 [8    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys\key-6be595eb-efc3-4aad-b35e-1657ea83f925.xml'.
+DEBUG 2018-03-22 16:07:53,581 [8    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys\key-75e373f0-4300-4f53-be2a-906d92f0b8c7.xml'.
+DEBUG 2018-03-22 16:07:53,581 [8    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys\key-ac03204d-d8a4-4cc5-89bc-08b76e42104c.xml'.
+DEBUG 2018-03-22 16:07:53,582 [8    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys\key-ac2d16f4-c9b3-47fa-8d0f-d770982e6a4c.xml'.
+DEBUG 2018-03-22 16:07:53,582 [8    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys\key-bc658bea-04c0-492b-97be-f402d818c6a6.xml'.
+DEBUG 2018-03-22 16:07:53,582 [8    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys\key-f593f375-8fa5-4a6b-a701-1ee25955d56c.xml'.
+DEBUG 2018-03-22 16:07:53,599 [8    ] taProtection.KeyManagement.XmlKeyManager - Found key {6be595eb-efc3-4aad-b35e-1657ea83f925}.
+DEBUG 2018-03-22 16:07:53,669 [8    ] taProtection.KeyManagement.XmlKeyManager - Found key {75e373f0-4300-4f53-be2a-906d92f0b8c7}.
+DEBUG 2018-03-22 16:07:53,670 [8    ] taProtection.KeyManagement.XmlKeyManager - Found key {ac03204d-d8a4-4cc5-89bc-08b76e42104c}.
+DEBUG 2018-03-22 16:07:53,670 [8    ] taProtection.KeyManagement.XmlKeyManager - Found key {ac2d16f4-c9b3-47fa-8d0f-d770982e6a4c}.
+DEBUG 2018-03-22 16:07:53,670 [8    ] taProtection.KeyManagement.XmlKeyManager - Found key {bc658bea-04c0-492b-97be-f402d818c6a6}.
+DEBUG 2018-03-22 16:07:53,670 [8    ] taProtection.KeyManagement.XmlKeyManager - Found key {f593f375-8fa5-4a6b-a701-1ee25955d56c}.
+DEBUG 2018-03-22 16:07:53,697 [8    ] tection.KeyManagement.DefaultKeyResolver - Considering key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with expiration date 2018-04-23 22:41:32Z as default key.
+DEBUG 2018-03-22 16:07:53,705 [8    ] e.DataProtection.TypeForwardingActivator - Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+DEBUG 2018-03-22 16:07:53,710 [8    ] otection.XmlEncryption.DpapiXmlDecryptor - Decrypting secret element using Windows DPAPI.
+DEBUG 2018-03-22 16:07:53,719 [8    ] e.DataProtection.TypeForwardingActivator - Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+DEBUG 2018-03-22 16:07:53,736 [8    ] l.CngCbcAuthenticatedEncryptorDescriptor - Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+DEBUG 2018-03-22 16:07:53,746 [8    ] l.CngCbcAuthenticatedEncryptorDescriptor - Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+DEBUG 2018-03-22 16:07:53,761 [8    ] Protection.KeyManagement.KeyRingProvider - Using key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} as the default key.
+INFO  2018-03-22 16:07:56,238 [10   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+DEBUG 2018-03-22 16:07:56,254 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The request path / does not match a supported file type
+DEBUG 2018-03-22 16:07:56,529 [10   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 16:07:56,772 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action AbpCompanyName.AbpProjectName.Web.Controllers.HomeController.Index (AbpCompanyName.AbpProjectName.Web.Mvc)
+INFO  2018-03-22 16:07:56,852 [10   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: parismiguel.
+INFO  2018-03-22 16:07:56,974 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpCompanyName.AbpProjectName.Web.Controllers.HomeController.Index (AbpCompanyName.AbpProjectName.Web.Mvc) with arguments ((null)) - ModelState is Valid
+DEBUG 2018-03-22 16:07:56,980 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method AbpCompanyName.AbpProjectName.Web.Controllers.HomeController.Index (AbpCompanyName.AbpProjectName.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult.
+DEBUG 2018-03-22 16:08:10,300 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-03-22 16:08:10,340 [1    ] Abp.Modules.AbpModuleManager             - Found 14 ABP modules in total.
+DEBUG 2018-03-22 16:08:10,365 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.Web.Startup.AbpProjectNameWebMvcModule, AbpCompanyName.AbpProjectName.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:08:10,368 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameWebCoreModule, AbpCompanyName.AbpProjectName.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:08:10,369 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameApplicationModule, AbpCompanyName.AbpProjectName.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:08:10,369 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameCoreModule, AbpCompanyName.AbpProjectName.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:08:10,370 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:08:10,370 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:08:10,370 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:08:10,371 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:08:10,372 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.EntityFrameworkCore.AbpProjectNameEntityFrameworkModule, AbpCompanyName.AbpProjectName.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:08:10,372 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:08:10,372 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:08:10,372 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:08:10,373 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:08:10,373 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:08:10,377 [1    ] Abp.Modules.AbpModuleManager             - 14 modules loaded.
+DEBUG 2018-03-22 16:08:10,447 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 16:08:10,447 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 16:08:10,447 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpProjectName-es-PE (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 16:08:10,447 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 16:08:10,743 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AbpCompanyName.AbpProjectName.EntityFrameworkCore.AbpProjectNameDbContext, AbpCompanyName.AbpProjectName.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:08:11,186 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-03-22 16:08:11,242 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-03-22 16:08:11,249 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-03-22 16:08:11,252 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpProjectName-es-PE
+DEBUG 2018-03-22 16:08:11,253 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-03-22 16:08:11,294 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-22 16:08:11,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2018-03-22 16:08:11,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-03-22 16:08:11,353 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Users.Dto.CreateUserDto
+DEBUG 2018-03-22 16:08:11,353 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Users.Dto.UserDto
+DEBUG 2018-03-22 16:08:11,353 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-03-22 16:08:11,354 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-03-22 16:08:11,354 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.CreateRoleDto
+DEBUG 2018-03-22 16:08:11,354 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.PermissionDto
+DEBUG 2018-03-22 16:08:11,354 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.RoleDto
+DEBUG 2018-03-22 16:08:11,354 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-03-22 16:08:11,354 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-03-22 16:08:11,354 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.TenantDto
+DEBUG 2018-03-22 16:08:11,354 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+INFO  2018-03-22 16:08:20,116 [1    ] pendencyInjection.DataProtectionServices - User profile is available. Using 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+DEBUG 2018-03-22 16:08:20,149 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Hosting starting
+DEBUG 2018-03-22 16:08:20,243 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Hosting started
+DEBUG 2018-03-22 16:08:20,409 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG7455JCF9" started.
+INFO  2018-03-22 16:08:20,515 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44309/Crm/SavePerson application/json 49
+DEBUG 2018-03-22 16:08:20,617 [9    ] NetCore.StaticFiles.StaticFileMiddleware - POST requests are not supported
+DEBUG 2018-03-22 16:08:20,843 [9    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 16:08:20,873 [9    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 16:08:20,873 [9    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 16:08:21,644 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.SavePerson (AbpCompanyName.AbpProjectName.Web.Mvc)
+INFO  2018-03-22 16:08:22,083 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.SavePerson (AbpCompanyName.AbpProjectName.Web.Mvc) with arguments (AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.SavePersonModel) - ModelState is Valid
+DEBUG 2018-03-22 16:08:22,084 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.SavePerson (AbpCompanyName.AbpProjectName.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.JsonResult.
+INFO  2018-03-22 16:08:22,849 [10   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-03-22 16:08:22,977 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.SavePerson (AbpCompanyName.AbpProjectName.Web.Mvc) in 1329.2524ms
+DEBUG 2018-03-22 16:08:22,995 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG7455JCF9" completed keep alive response.
+INFO  2018-03-22 16:08:23,009 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2507.5442ms 200 application/json; charset=utf-8
+DEBUG 2018-03-22 16:09:43,285 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG7455JCF9" received FIN.
+DEBUG 2018-03-22 16:09:43,286 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG7455JCF9" disconnecting.
+DEBUG 2018-03-22 16:09:43,287 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG7455JCF9" sending FIN.
+DEBUG 2018-03-22 16:09:43,292 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG7455JCF9" sent FIN with status "0".
+DEBUG 2018-03-22 16:09:43,295 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG7455JCF9" stopped.
+DEBUG 2018-03-22 16:10:12,728 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG7455JCFA" started.
+INFO  2018-03-22 16:10:12,728 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44309/Crm/GetPhoneNumber application/json 50
+DEBUG 2018-03-22 16:10:12,730 [10   ] NetCore.StaticFiles.StaticFileMiddleware - POST requests are not supported
+DEBUG 2018-03-22 16:10:12,731 [10   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 16:10:12,731 [10   ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 16:10:12,731 [10   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 16:10:12,739 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc)
+INFO  2018-03-22 16:10:12,752 [10   ] idateAntiforgeryTokenAuthorizationFilter - Antiforgery token validation failed. The required antiforgery header value "X-XSRF-TOKEN" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery header value "X-XSRF-TOKEN" is not present.
+   at Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgery.<ValidateRequestAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ValidateAntiforgeryTokenAuthorizationFilter.<OnAuthorizationAsync>d__3.MoveNext()
+INFO  2018-03-22 16:10:12,790 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2018-03-22 16:10:12,792 [10   ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2018-03-22 16:10:12,793 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc) in 53.4538ms
+DEBUG 2018-03-22 16:10:12,796 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG7455JCFA" completed keep alive response.
+INFO  2018-03-22 16:10:12,796 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 67.6413ms 400 
+DEBUG 2018-03-22 16:10:26,648 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-03-22 16:10:26,688 [1    ] Abp.Modules.AbpModuleManager             - Found 14 ABP modules in total.
+DEBUG 2018-03-22 16:10:26,716 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.Web.Startup.AbpProjectNameWebMvcModule, AbpCompanyName.AbpProjectName.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:10:26,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameWebCoreModule, AbpCompanyName.AbpProjectName.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:10:26,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameApplicationModule, AbpCompanyName.AbpProjectName.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:10:26,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameCoreModule, AbpCompanyName.AbpProjectName.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:10:26,723 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:10:26,723 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:10:26,724 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:10:26,727 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:10:26,729 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.EntityFrameworkCore.AbpProjectNameEntityFrameworkModule, AbpCompanyName.AbpProjectName.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:10:26,729 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:10:26,729 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:10:26,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:10:26,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:10:26,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:10:26,738 [1    ] Abp.Modules.AbpModuleManager             - 14 modules loaded.
+DEBUG 2018-03-22 16:10:26,820 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 16:10:26,821 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 16:10:26,821 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpProjectName-es-PE (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 16:10:26,821 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 16:10:27,202 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AbpCompanyName.AbpProjectName.EntityFrameworkCore.AbpProjectNameDbContext, AbpCompanyName.AbpProjectName.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:10:27,671 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-03-22 16:10:27,721 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-03-22 16:10:27,728 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-03-22 16:10:27,731 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpProjectName-es-PE
+DEBUG 2018-03-22 16:10:27,732 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-03-22 16:10:27,775 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-22 16:10:27,831 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2018-03-22 16:10:27,831 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-03-22 16:10:27,834 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Users.Dto.CreateUserDto
+DEBUG 2018-03-22 16:10:27,835 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Users.Dto.UserDto
+DEBUG 2018-03-22 16:10:27,835 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-03-22 16:10:27,835 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-03-22 16:10:27,835 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.CreateRoleDto
+DEBUG 2018-03-22 16:10:27,835 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.PermissionDto
+DEBUG 2018-03-22 16:10:27,835 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.RoleDto
+DEBUG 2018-03-22 16:10:27,835 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-03-22 16:10:27,835 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-03-22 16:10:27,835 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.TenantDto
+DEBUG 2018-03-22 16:10:27,836 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+INFO  2018-03-22 16:10:34,775 [1    ] pendencyInjection.DataProtectionServices - User profile is available. Using 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+DEBUG 2018-03-22 16:10:34,809 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Hosting starting
+DEBUG 2018-03-22 16:10:34,894 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Hosting started
+DEBUG 2018-03-22 16:10:34,916 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG75D8CS9E" started.
+INFO  2018-03-22 16:10:35,009 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44309/Crm/GetPhoneNumber application/json 50
+DEBUG 2018-03-22 16:10:35,114 [9    ] NetCore.StaticFiles.StaticFileMiddleware - POST requests are not supported
+DEBUG 2018-03-22 16:10:35,345 [9    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 16:10:35,374 [9    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 16:10:35,374 [9    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 16:10:36,133 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc)
+INFO  2018-03-22 16:10:36,287 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc) with arguments () - ModelState is Valid
+DEBUG 2018-03-22 16:10:36,319 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.JsonResult.
+INFO  2018-03-22 16:10:36,998 [8    ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-03-22 16:10:37,302 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc) in 1165.583ms
+DEBUG 2018-03-22 16:10:37,319 [8    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG75D8CS9E" completed keep alive response.
+INFO  2018-03-22 16:10:37,351 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2355.4454ms 200 application/json; charset=utf-8
+DEBUG 2018-03-22 16:11:16,381 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-03-22 16:11:16,423 [1    ] Abp.Modules.AbpModuleManager             - Found 14 ABP modules in total.
+DEBUG 2018-03-22 16:11:16,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.Web.Startup.AbpProjectNameWebMvcModule, AbpCompanyName.AbpProjectName.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:11:16,457 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameWebCoreModule, AbpCompanyName.AbpProjectName.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:11:16,457 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameApplicationModule, AbpCompanyName.AbpProjectName.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:11:16,458 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameCoreModule, AbpCompanyName.AbpProjectName.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:11:16,458 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:11:16,459 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:11:16,459 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:11:16,460 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:11:16,461 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.EntityFrameworkCore.AbpProjectNameEntityFrameworkModule, AbpCompanyName.AbpProjectName.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:11:16,462 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:11:16,462 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:11:16,463 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:11:16,464 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:11:16,464 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:11:16,470 [1    ] Abp.Modules.AbpModuleManager             - 14 modules loaded.
+DEBUG 2018-03-22 16:11:16,542 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 16:11:16,542 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 16:11:16,542 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpProjectName-es-PE (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 16:11:16,542 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 16:11:16,841 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AbpCompanyName.AbpProjectName.EntityFrameworkCore.AbpProjectNameDbContext, AbpCompanyName.AbpProjectName.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:11:17,523 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-03-22 16:11:17,587 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-03-22 16:11:17,595 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-03-22 16:11:17,598 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpProjectName-es-PE
+DEBUG 2018-03-22 16:11:17,600 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-03-22 16:11:17,664 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-22 16:11:17,728 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2018-03-22 16:11:17,728 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-03-22 16:11:17,731 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Users.Dto.CreateUserDto
+DEBUG 2018-03-22 16:11:17,732 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Users.Dto.UserDto
+DEBUG 2018-03-22 16:11:17,732 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-03-22 16:11:17,732 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-03-22 16:11:17,732 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.CreateRoleDto
+DEBUG 2018-03-22 16:11:17,732 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.PermissionDto
+DEBUG 2018-03-22 16:11:17,732 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.RoleDto
+DEBUG 2018-03-22 16:11:17,732 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-03-22 16:11:17,732 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-03-22 16:11:17,732 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.TenantDto
+DEBUG 2018-03-22 16:11:17,732 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+INFO  2018-03-22 16:11:26,854 [1    ] pendencyInjection.DataProtectionServices - User profile is available. Using 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+DEBUG 2018-03-22 16:11:26,891 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Hosting starting
+DEBUG 2018-03-22 16:11:26,974 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Hosting started
+DEBUG 2018-03-22 16:11:27,173 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG75SQMUGL" started.
+INFO  2018-03-22 16:11:27,279 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44309/Crm/GetPhoneNumber application/json 50
+DEBUG 2018-03-22 16:11:27,378 [8    ] NetCore.StaticFiles.StaticFileMiddleware - POST requests are not supported
+DEBUG 2018-03-22 16:11:27,617 [8    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 16:11:27,644 [8    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 16:11:27,645 [8    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 16:11:28,391 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc)
+DEBUG 2018-03-22 16:11:28,501 [8    ] Mvc.ModelBinding.Binders.BodyModelBinder - Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter' for content type 'application/json'.
+DEBUG 2018-03-22 16:11:28,600 [8    ] etCore.Mvc.Formatters.JsonInputFormatter - JSON input formatter threw an exception.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: {. Path '', line 1, position 1.
+   at Newtonsoft.Json.JsonTextReader.ReadStringValue(ReadType readType)
+   at Newtonsoft.Json.JsonTextReader.ReadAsString()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+WARN  2018-03-22 16:11:29,458 [3    ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 128
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 87
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.<OnActionExecutionAsync>d__3.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 34
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__25.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextExceptionFilterAsync>d__24.MoveNext()
+WARN  2018-03-22 16:11:29,466 [3    ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2018-03-22 16:11:29,466 [3    ] Mvc.ExceptionHandling.AbpExceptionFilter -  ()
+DEBUG 2018-03-22 16:11:30,156 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Request was short circuited at exception filter 'Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter'.
+DEBUG 2018-03-22 16:11:30,197 [3    ] etCore.Mvc.Internal.ObjectResultExecutor - No information found on request to perform content negotiation.
+DEBUG 2018-03-22 16:11:30,202 [3    ] etCore.Mvc.Internal.ObjectResultExecutor - Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter' and content type 'application/json' to write the response.
+INFO  2018-03-22 16:11:30,203 [3    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-03-22 16:11:30,448 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc) in 2052.4326ms
+DEBUG 2018-03-22 16:11:30,467 [3    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG75SQMUGL" completed keep alive response.
+INFO  2018-03-22 16:11:30,473 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3215.5659ms 400 application/json; charset=utf-8
+DEBUG 2018-03-22 16:12:37,863 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-03-22 16:12:37,892 [1    ] Abp.Modules.AbpModuleManager             - Found 14 ABP modules in total.
+DEBUG 2018-03-22 16:12:37,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.Web.Startup.AbpProjectNameWebMvcModule, AbpCompanyName.AbpProjectName.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:12:37,915 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameWebCoreModule, AbpCompanyName.AbpProjectName.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:12:37,916 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameApplicationModule, AbpCompanyName.AbpProjectName.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:12:37,916 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameCoreModule, AbpCompanyName.AbpProjectName.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:12:37,916 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:12:37,917 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:12:37,917 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:12:37,918 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:12:37,918 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.EntityFrameworkCore.AbpProjectNameEntityFrameworkModule, AbpCompanyName.AbpProjectName.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:12:37,918 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:12:37,919 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:12:37,919 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:12:37,919 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:12:37,920 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:12:37,923 [1    ] Abp.Modules.AbpModuleManager             - 14 modules loaded.
+DEBUG 2018-03-22 16:12:37,984 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 16:12:37,984 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 16:12:37,984 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpProjectName-es-PE (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 16:12:37,984 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 16:12:38,283 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AbpCompanyName.AbpProjectName.EntityFrameworkCore.AbpProjectNameDbContext, AbpCompanyName.AbpProjectName.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:12:38,733 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-03-22 16:12:38,782 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-03-22 16:12:38,788 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-03-22 16:12:38,792 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpProjectName-es-PE
+DEBUG 2018-03-22 16:12:38,793 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-03-22 16:12:38,837 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-22 16:12:38,892 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2018-03-22 16:12:38,892 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-03-22 16:12:38,898 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Users.Dto.CreateUserDto
+DEBUG 2018-03-22 16:12:38,899 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Users.Dto.UserDto
+DEBUG 2018-03-22 16:12:38,899 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-03-22 16:12:38,899 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-03-22 16:12:38,899 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.CreateRoleDto
+DEBUG 2018-03-22 16:12:38,899 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.PermissionDto
+DEBUG 2018-03-22 16:12:38,899 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.RoleDto
+DEBUG 2018-03-22 16:12:38,899 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-03-22 16:12:38,899 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-03-22 16:12:38,899 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.TenantDto
+DEBUG 2018-03-22 16:12:38,899 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+INFO  2018-03-22 16:12:47,650 [1    ] pendencyInjection.DataProtectionServices - User profile is available. Using 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+DEBUG 2018-03-22 16:12:47,682 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Hosting starting
+DEBUG 2018-03-22 16:12:47,772 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Hosting started
+DEBUG 2018-03-22 16:12:47,829 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG76KRV0UN" started.
+INFO  2018-03-22 16:12:47,925 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44309/Crm/GetPhoneNumber?text=Dime%20el%20tel%C3%A9fono%20de%20Starbucks  0
+DEBUG 2018-03-22 16:12:48,031 [9    ] NetCore.StaticFiles.StaticFileMiddleware - POST requests are not supported
+DEBUG 2018-03-22 16:12:48,264 [9    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 16:12:48,293 [9    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 16:12:48,294 [9    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 16:12:49,054 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc)
+INFO  2018-03-22 16:12:49,386 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc) with arguments (Dime el teléfono de Starbucks) - ModelState is Valid
+DEBUG 2018-03-22 16:12:52,934 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.JsonResult.
+INFO  2018-03-22 16:12:53,721 [9    ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-03-22 16:12:53,829 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc) in 4771.1082ms
+DEBUG 2018-03-22 16:12:53,852 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG76KRV0UN" completed keep alive response.
+INFO  2018-03-22 16:12:53,864 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5953.0065ms 200 application/json; charset=utf-8
+DEBUG 2018-03-22 16:13:57,814 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG76KRV0UN" received FIN.
+DEBUG 2018-03-22 16:13:57,815 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG76KRV0UO" started.
+INFO  2018-03-22 16:13:57,818 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://127.0.0.1:5072/iisintegration  0
+DEBUG 2018-03-22 16:13:57,818 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG76KRV0UN" disconnecting.
+DEBUG 2018-03-22 16:13:57,820 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG76KRV0UN" sending FIN.
+DEBUG 2018-03-22 16:13:57,821 [3    ] NetCore.StaticFiles.StaticFileMiddleware - POST requests are not supported
+DEBUG 2018-03-22 16:13:57,822 [3    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 16:13:57,822 [3    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 16:13:57,822 [3    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 16:13:57,822 [3    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 16:13:57,829 [3    ] soft.AspNetCore.Builder.RouterMiddleware - Request did not match any routes.
+DEBUG 2018-03-22 16:13:57,831 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG76KRV0UN" sent FIN with status "0".
+DEBUG 2018-03-22 16:13:57,836 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG76KRV0UN" stopped.
+DEBUG 2018-03-22 16:13:57,838 [3    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG76KRV0UO" completed keep alive response.
+INFO  2018-03-22 16:13:57,838 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 21.2183ms 404 
+DEBUG 2018-03-22 16:20:16,383 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-03-22 16:20:16,710 [1    ] Abp.Modules.AbpModuleManager             - Found 14 ABP modules in total.
+DEBUG 2018-03-22 16:20:16,732 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.Web.Startup.AbpProjectNameWebMvcModule, AbpCompanyName.AbpProjectName.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:20:16,737 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameWebCoreModule, AbpCompanyName.AbpProjectName.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:20:16,738 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameApplicationModule, AbpCompanyName.AbpProjectName.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:20:16,738 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameCoreModule, AbpCompanyName.AbpProjectName.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:20:16,739 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:20:16,739 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:20:16,739 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:20:16,740 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:20:16,741 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.EntityFrameworkCore.AbpProjectNameEntityFrameworkModule, AbpCompanyName.AbpProjectName.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:20:16,741 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:20:16,741 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:20:16,742 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:20:16,742 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:20:16,742 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:20:16,747 [1    ] Abp.Modules.AbpModuleManager             - 14 modules loaded.
+DEBUG 2018-03-22 16:20:16,863 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 16:20:16,863 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 16:20:16,863 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpProjectName-es-PE (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 16:20:16,863 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 16:20:17,898 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AbpCompanyName.AbpProjectName.EntityFrameworkCore.AbpProjectNameDbContext, AbpCompanyName.AbpProjectName.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 16:20:19,348 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-03-22 16:20:19,459 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-03-22 16:20:19,473 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-03-22 16:20:19,477 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpProjectName-es-PE
+DEBUG 2018-03-22 16:20:19,478 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-03-22 16:20:19,776 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-22 16:20:19,893 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2018-03-22 16:20:19,893 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-03-22 16:20:19,903 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Users.Dto.CreateUserDto
+DEBUG 2018-03-22 16:20:19,904 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Users.Dto.UserDto
+DEBUG 2018-03-22 16:20:19,904 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-03-22 16:20:19,904 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-03-22 16:20:19,904 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.CreateRoleDto
+DEBUG 2018-03-22 16:20:19,904 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.PermissionDto
+DEBUG 2018-03-22 16:20:19,904 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.RoleDto
+DEBUG 2018-03-22 16:20:19,904 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-03-22 16:20:19,904 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-03-22 16:20:19,904 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.TenantDto
+DEBUG 2018-03-22 16:20:19,904 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+INFO  2018-03-22 16:20:32,372 [1    ] pendencyInjection.DataProtectionServices - User profile is available. Using 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+DEBUG 2018-03-22 16:20:32,996 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Hosting starting
+DEBUG 2018-03-22 16:20:33,746 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Hosting started
+DEBUG 2018-03-22 16:20:34,008 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG7AVPP3SG" started.
+DEBUG 2018-03-22 16:20:34,450 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG7AVPP3SH" started.
+DEBUG 2018-03-22 16:20:34,455 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG7AVPP3SH" reset.
+DEBUG 2018-03-22 16:20:34,513 [8    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG7AVPP3SH" disconnecting.
+DEBUG 2018-03-22 16:20:34,532 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG7AVPP3SH" stopped.
+INFO  2018-03-22 16:20:34,630 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44309/  
+DEBUG 2018-03-22 16:20:36,063 [4    ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with purposes ('D:\PARIS\Visual Studio 2017\Source\TeamServices\Crm103Core1x\AbpCompanyName.AbpProjectName.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+DEBUG 2018-03-22 16:20:36,082 [4    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys\key-6be595eb-efc3-4aad-b35e-1657ea83f925.xml'.
+DEBUG 2018-03-22 16:20:36,100 [4    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys\key-75e373f0-4300-4f53-be2a-906d92f0b8c7.xml'.
+DEBUG 2018-03-22 16:20:36,100 [4    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys\key-ac03204d-d8a4-4cc5-89bc-08b76e42104c.xml'.
+DEBUG 2018-03-22 16:20:36,101 [4    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys\key-ac2d16f4-c9b3-47fa-8d0f-d770982e6a4c.xml'.
+DEBUG 2018-03-22 16:20:36,101 [4    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys\key-bc658bea-04c0-492b-97be-f402d818c6a6.xml'.
+DEBUG 2018-03-22 16:20:36,101 [4    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys\key-f593f375-8fa5-4a6b-a701-1ee25955d56c.xml'.
+DEBUG 2018-03-22 16:20:36,120 [4    ] taProtection.KeyManagement.XmlKeyManager - Found key {6be595eb-efc3-4aad-b35e-1657ea83f925}.
+DEBUG 2018-03-22 16:20:36,191 [4    ] taProtection.KeyManagement.XmlKeyManager - Found key {75e373f0-4300-4f53-be2a-906d92f0b8c7}.
+DEBUG 2018-03-22 16:20:36,191 [4    ] taProtection.KeyManagement.XmlKeyManager - Found key {ac03204d-d8a4-4cc5-89bc-08b76e42104c}.
+DEBUG 2018-03-22 16:20:36,191 [4    ] taProtection.KeyManagement.XmlKeyManager - Found key {ac2d16f4-c9b3-47fa-8d0f-d770982e6a4c}.
+DEBUG 2018-03-22 16:20:36,191 [4    ] taProtection.KeyManagement.XmlKeyManager - Found key {bc658bea-04c0-492b-97be-f402d818c6a6}.
+DEBUG 2018-03-22 16:20:36,191 [4    ] taProtection.KeyManagement.XmlKeyManager - Found key {f593f375-8fa5-4a6b-a701-1ee25955d56c}.
+DEBUG 2018-03-22 16:20:36,207 [4    ] tection.KeyManagement.DefaultKeyResolver - Considering key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with expiration date 2018-04-23 22:41:32Z as default key.
+DEBUG 2018-03-22 16:20:36,218 [4    ] e.DataProtection.TypeForwardingActivator - Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+DEBUG 2018-03-22 16:20:36,221 [4    ] otection.XmlEncryption.DpapiXmlDecryptor - Decrypting secret element using Windows DPAPI.
+DEBUG 2018-03-22 16:20:36,226 [4    ] e.DataProtection.TypeForwardingActivator - Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+DEBUG 2018-03-22 16:20:36,238 [4    ] l.CngCbcAuthenticatedEncryptorDescriptor - Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+DEBUG 2018-03-22 16:20:36,249 [4    ] l.CngCbcAuthenticatedEncryptorDescriptor - Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+DEBUG 2018-03-22 16:20:36,270 [4    ] Protection.KeyManagement.KeyRingProvider - Using key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} as the default key.
+INFO  2018-03-22 16:20:42,456 [9    ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+DEBUG 2018-03-22 16:20:42,467 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The request path / does not match a supported file type
+DEBUG 2018-03-22 16:20:43,183 [9    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 16:20:43,664 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action AbpCompanyName.AbpProjectName.Web.Controllers.HomeController.Index (AbpCompanyName.AbpProjectName.Web.Mvc)
+INFO  2018-03-22 16:20:43,737 [9    ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2018-03-22 16:20:43,834 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpCompanyName.AbpProjectName.Web.Controllers.HomeController.Index (AbpCompanyName.AbpProjectName.Web.Mvc) with arguments ((null)) - ModelState is Valid
+DEBUG 2018-03-22 16:20:43,839 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method AbpCompanyName.AbpProjectName.Web.Controllers.HomeController.Index (AbpCompanyName.AbpProjectName.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult.
+DEBUG 2018-03-22 16:20:47,604 [10   ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Index' in controller 'Home'.
+DEBUG 2018-03-22 16:20:47,649 [10   ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Home/Index.cshtml' started.
+DEBUG 2018-03-22 16:20:48,998 [10   ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Home/Index.cshtml' completed in 1345.8675ms.
+DEBUG 2018-03-22 16:20:49,495 [10   ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' started.
+DEBUG 2018-03-22 16:20:55,900 [10   ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' completed in 6403.7473ms.
+DEBUG 2018-03-22 16:20:55,927 [10   ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/_ViewStart.cshtml' started.
+DEBUG 2018-03-22 16:20:55,944 [10   ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/_ViewStart.cshtml' completed in 17.0686ms.
+DEBUG 2018-03-22 16:20:55,944 [10   ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/_ViewStart.cshtml' started.
+DEBUG 2018-03-22 16:20:56,049 [10   ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/_ViewStart.cshtml' completed in 105.0422ms.
+DEBUG 2018-03-22 16:20:56,062 [10   ] ViewFeatures.Internal.ViewResultExecutor - The view 'Index' was found.
+INFO  2018-03-22 16:20:56,064 [10   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Home/Index.cshtml.
+DEBUG 2018-03-22 16:20:56,815 [10   ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/_Layout.cshtml' started.
+DEBUG 2018-03-22 16:20:57,036 [10   ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/_Layout.cshtml' completed in 221.0414ms.
+DEBUG 2018-03-22 16:20:57,036 [10   ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/_Layout.cshtml' started.
+DEBUG 2018-03-22 16:20:57,451 [10   ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/_Layout.cshtml' completed in 414.5072ms.
+DEBUG 2018-03-22 16:20:57,526 [10   ] .KeyManagement.KeyRingBasedDataProtector - Performing protect operation to key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with purposes ('D:\PARIS\Visual Studio 2017\Source\TeamServices\Crm103Core1x\AbpCompanyName.AbpProjectName.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2018-03-22 16:20:57,536 [10   ] .KeyManagement.KeyRingBasedDataProtector - Performing protect operation to key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with purposes ('D:\PARIS\Visual Studio 2017\Source\TeamServices\Crm103Core1x\AbpCompanyName.AbpProjectName.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2018-03-22 16:20:57,566 [10   ] .Antiforgery.Internal.DefaultAntiforgery - A new antiforgery cookie token was created.
+DEBUG 2018-03-22 16:20:58,620 [9    ] ewComponents.DefaultViewComponentInvoker - Executing view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.TopBarLanguageSwitch.TopBarLanguageSwitchViewComponent with arguments ().
+DEBUG 2018-03-22 16:20:58,639 [9    ] ewComponents.DefaultViewComponentInvoker - Executed view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.TopBarLanguageSwitch.TopBarLanguageSwitchViewComponent in 15.7653ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2018-03-22 16:20:58,645 [9    ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/TopBarLanguageSwitch/Default' in controller 'Home'.
+DEBUG 2018-03-22 16:20:58,646 [9    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/TopBarLanguageSwitch/Default.cshtml' started.
+DEBUG 2018-03-22 16:20:58,873 [9    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/TopBarLanguageSwitch/Default.cshtml' completed in 226.8295ms.
+DEBUG 2018-03-22 16:20:58,873 [9    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/TopBarLanguageSwitch/Default.cshtml' started.
+DEBUG 2018-03-22 16:20:59,101 [9    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/TopBarLanguageSwitch/Default.cshtml' completed in 228.352ms.
+DEBUG 2018-03-22 16:20:59,704 [9    ] ewComponents.DefaultViewComponentInvoker - Executing view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.SideBarUserArea.SideBarUserAreaViewComponent with arguments ().
+DEBUG 2018-03-22 16:21:00,254 [8    ] ewComponents.DefaultViewComponentInvoker - Executed view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.SideBarUserArea.SideBarUserAreaViewComponent in 550.5669ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2018-03-22 16:21:00,326 [8    ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/SideBarUserArea/Default' in controller 'Home'.
+DEBUG 2018-03-22 16:21:00,326 [8    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/SideBarUserArea/Default.cshtml' started.
+DEBUG 2018-03-22 16:21:00,388 [8    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/SideBarUserArea/Default.cshtml' completed in 61.6059ms.
+DEBUG 2018-03-22 16:21:00,388 [8    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/SideBarUserArea/Default.cshtml' started.
+DEBUG 2018-03-22 16:21:00,477 [8    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/SideBarUserArea/Default.cshtml' completed in 89.2263ms.
+DEBUG 2018-03-22 16:21:01,555 [8    ] ewComponents.DefaultViewComponentInvoker - Executing view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.SideBarNav.SideBarNavViewComponent with arguments (Home).
+DEBUG 2018-03-22 16:21:04,022 [3    ] ewComponents.DefaultViewComponentInvoker - Executed view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.SideBarNav.SideBarNavViewComponent in 2466.8201ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2018-03-22 16:21:04,022 [3    ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/SideBarNav/Default' in controller 'Home'.
+DEBUG 2018-03-22 16:21:04,023 [3    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/SideBarNav/Default.cshtml' started.
+DEBUG 2018-03-22 16:21:04,064 [3    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/SideBarNav/Default.cshtml' completed in 40.6024ms.
+DEBUG 2018-03-22 16:21:04,064 [3    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/SideBarNav/Default.cshtml' started.
+DEBUG 2018-03-22 16:21:04,255 [3    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/SideBarNav/Default.cshtml' completed in 190.831ms.
+DEBUG 2018-03-22 16:21:04,273 [3    ] ewComponents.DefaultViewComponentInvoker - Executing view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.RightSideBar.RightSideBarViewComponent with arguments ().
+DEBUG 2018-03-22 16:21:04,279 [3    ] ewComponents.DefaultViewComponentInvoker - Executed view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.RightSideBar.RightSideBarViewComponent in 4.9339ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2018-03-22 16:21:04,279 [3    ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/RightSideBar/Default' in controller 'Home'.
+DEBUG 2018-03-22 16:21:04,279 [3    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/RightSideBar/Default.cshtml' started.
+DEBUG 2018-03-22 16:21:04,335 [3    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/RightSideBar/Default.cshtml' completed in 55.8064ms.
+DEBUG 2018-03-22 16:21:04,335 [3    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/RightSideBar/Default.cshtml' started.
+DEBUG 2018-03-22 16:21:04,459 [3    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/RightSideBar/Default.cshtml' completed in 124.3208ms.
+DEBUG 2018-03-22 16:21:05,008 [3    ] .KeyManagement.KeyRingBasedDataProtector - Performing protect operation to key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with purposes ('D:\PARIS\Visual Studio 2017\Source\TeamServices\Crm103Core1x\AbpCompanyName.AbpProjectName.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2018-03-22 16:21:05,109 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpCompanyName.AbpProjectName.Web.Controllers.HomeController.Index (AbpCompanyName.AbpProjectName.Web.Mvc) in 21444.5181ms
+DEBUG 2018-03-22 16:21:05,138 [3    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG7AVPP3SG" completed keep alive response.
+INFO  2018-03-22 16:21:05,174 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 30561.1553ms 200 text/html; charset=utf-8
+DEBUG 2018-03-22 16:21:05,341 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG7AVPP3SI" started.
+INFO  2018-03-22 16:21:05,341 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44309/AbpServiceProxies/GetAll?v=636573324197804675  
+INFO  2018-03-22 16:21:05,341 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44309/AbpScripts/GetScripts?v=636573324197804675  
+DEBUG 2018-03-22 16:21:05,353 [9    ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with purposes ('D:\PARIS\Visual Studio 2017\Source\TeamServices\Crm103Core1x\AbpCompanyName.AbpProjectName.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+DEBUG 2018-03-22 16:21:05,353 [10   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with purposes ('D:\PARIS\Visual Studio 2017\Source\TeamServices\Crm103Core1x\AbpCompanyName.AbpProjectName.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2018-03-22 16:21:05,359 [9    ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+INFO  2018-03-22 16:21:05,359 [10   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+DEBUG 2018-03-22 16:21:05,359 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The request path /AbpServiceProxies/GetAll does not match a supported file type
+DEBUG 2018-03-22 16:21:05,359 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The request path /AbpScripts/GetScripts does not match a supported file type
+DEBUG 2018-03-22 16:21:05,360 [9    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 16:21:05,360 [10   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 16:21:05,361 [9    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 16:21:05,361 [10   ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 16:21:05,362 [9    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 16:21:05,362 [10   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 16:21:05,364 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+DEBUG 2018-03-22 16:21:05,364 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+DEBUG 2018-03-22 16:21:05,455 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG7AVPP3SJ" started.
+INFO  2018-03-22 16:21:05,464 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44309/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=SkVgE7-Hnir5jWGbxVb6v4khnMMVgYK9luzMEAhH-is  
+DEBUG 2018-03-22 16:21:05,465 [15   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with purposes ('D:\PARIS\Visual Studio 2017\Source\TeamServices\Crm103Core1x\AbpCompanyName.AbpProjectName.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2018-03-22 16:21:05,480 [15   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+INFO  2018-03-22 16:21:05,484 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-03-22 16:21:05,530 [15   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js was not modified
+DEBUG 2018-03-22 16:21:05,548 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Handled. Status code: 304 File: /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js
+DEBUG 2018-03-22 16:21:05,561 [15   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG7AVPP3SJ" completed keep alive response.
+INFO  2018-03-22 16:21:05,561 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 96.8608ms 304 application/javascript
+INFO  2018-03-22 16:21:05,690 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+DEBUG 2018-03-22 16:21:06,083 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ObjectResult.
+DEBUG 2018-03-22 16:21:06,121 [9    ] etCore.Mvc.Internal.ObjectResultExecutor - No information found on request to perform content negotiation.
+DEBUG 2018-03-22 16:21:06,130 [9    ] etCore.Mvc.Internal.ObjectResultExecutor - Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/javascript' to write the response.
+INFO  2018-03-22 16:21:06,130 [9    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-03-22 16:21:06,144 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 780.148ms
+DEBUG 2018-03-22 16:21:06,145 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG7AVPP3SG" completed keep alive response.
+INFO  2018-03-22 16:21:06,145 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 803.9141ms 200 text/javascript; charset=utf-8
+DEBUG 2018-03-22 16:21:06,924 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult.
+INFO  2018-03-22 16:21:07,093 [10   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-03-22 16:21:07,096 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 1731.2828ms
+DEBUG 2018-03-22 16:21:07,096 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG7AVPP3SI" completed keep alive response.
+INFO  2018-03-22 16:21:07,096 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1755.0399ms 200 application/x-javascript; charset=utf-8
+INFO  2018-03-22 16:21:15,142 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44309/Crm/GetPhoneNumber?text=Dime%20el%20tel%C3%A9fono%20de%20Starbucks  0
+DEBUG 2018-03-22 16:21:15,146 [8    ] NetCore.StaticFiles.StaticFileMiddleware - POST requests are not supported
+DEBUG 2018-03-22 16:21:15,146 [8    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 16:21:15,146 [8    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 16:21:15,146 [8    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 16:21:15,156 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc)
+INFO  2018-03-22 16:21:15,179 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc) with arguments (Dime el teléfono de Starbucks) - ModelState is Valid
+DEBUG 2018-03-22 16:22:49,478 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG7AVPP3SG" received FIN.
+DEBUG 2018-03-22 16:22:49,483 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG7AVPP3SI" received FIN.
+DEBUG 2018-03-22 16:22:49,562 [20   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG7AVPP3SG" disconnecting.
+DEBUG 2018-03-22 16:22:49,563 [20   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG7AVPP3SI" disconnecting.
+DEBUG 2018-03-22 16:22:49,563 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG7AVPP3SG" sending FIN.
+DEBUG 2018-03-22 16:22:49,570 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG7AVPP3SI" sending FIN.
+DEBUG 2018-03-22 16:22:51,482 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG7AVPP3SI" sent FIN with status "0".
+DEBUG 2018-03-22 16:22:51,484 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG7AVPP3SI" stopped.
+DEBUG 2018-03-22 16:22:51,488 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG7AVPP3SG" sent FIN with status "0".
+DEBUG 2018-03-22 16:22:51,489 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG7AVPP3SG" stopped.
+DEBUG 2018-03-22 17:31:59,965 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-03-22 17:32:00,315 [1    ] Abp.Modules.AbpModuleManager             - Found 14 ABP modules in total.
+DEBUG 2018-03-22 17:32:00,330 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.Web.Startup.AbpProjectNameWebMvcModule, AbpCompanyName.AbpProjectName.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:32:00,334 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameWebCoreModule, AbpCompanyName.AbpProjectName.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:32:00,334 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameApplicationModule, AbpCompanyName.AbpProjectName.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:32:00,335 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameCoreModule, AbpCompanyName.AbpProjectName.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:32:00,335 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:32:00,336 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:32:00,336 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:32:00,336 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:32:00,337 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.EntityFrameworkCore.AbpProjectNameEntityFrameworkModule, AbpCompanyName.AbpProjectName.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:32:00,340 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:32:00,340 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:32:00,341 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:32:00,341 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:32:00,341 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:32:00,345 [1    ] Abp.Modules.AbpModuleManager             - 14 modules loaded.
+DEBUG 2018-03-22 17:32:00,561 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 17:32:00,561 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 17:32:00,561 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpProjectName-es-PE (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 17:32:00,561 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 17:32:01,266 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AbpCompanyName.AbpProjectName.EntityFrameworkCore.AbpProjectNameDbContext, AbpCompanyName.AbpProjectName.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:32:02,089 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-03-22 17:32:02,262 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-03-22 17:32:02,268 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-03-22 17:32:02,271 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpProjectName-es-PE
+DEBUG 2018-03-22 17:32:02,272 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-03-22 17:32:02,330 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-22 17:32:02,436 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2018-03-22 17:32:02,436 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-03-22 17:32:02,440 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Users.Dto.CreateUserDto
+DEBUG 2018-03-22 17:32:02,441 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Users.Dto.UserDto
+DEBUG 2018-03-22 17:32:02,441 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-03-22 17:32:02,441 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-03-22 17:32:02,441 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.CreateRoleDto
+DEBUG 2018-03-22 17:32:02,441 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.PermissionDto
+DEBUG 2018-03-22 17:32:02,441 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.RoleDto
+DEBUG 2018-03-22 17:32:02,441 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-03-22 17:32:02,441 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-03-22 17:32:02,441 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.TenantDto
+DEBUG 2018-03-22 17:32:02,441 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+INFO  2018-03-22 17:32:14,251 [1    ] pendencyInjection.DataProtectionServices - User profile is available. Using 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+DEBUG 2018-03-22 17:32:14,317 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Hosting starting
+DEBUG 2018-03-22 17:32:14,512 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Hosting started
+DEBUG 2018-03-22 17:32:14,671 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8J1G0KR6" started.
+DEBUG 2018-03-22 17:32:14,706 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8J1G0KR6" reset.
+DEBUG 2018-03-22 17:32:14,736 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8J1G0KR6" disconnecting.
+DEBUG 2018-03-22 17:32:14,758 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8J1G0KR6" stopped.
+DEBUG 2018-03-22 17:32:51,599 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8J1G0KR7" started.
+INFO  2018-03-22 17:32:51,773 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44309/  
+DEBUG 2018-03-22 17:32:51,945 [3    ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with purposes ('D:\PARIS\Visual Studio 2017\Source\TeamServices\Crm103Core1x\AbpCompanyName.AbpProjectName.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+DEBUG 2018-03-22 17:32:51,966 [3    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys\key-6be595eb-efc3-4aad-b35e-1657ea83f925.xml'.
+DEBUG 2018-03-22 17:32:51,999 [3    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys\key-75e373f0-4300-4f53-be2a-906d92f0b8c7.xml'.
+DEBUG 2018-03-22 17:32:52,018 [3    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys\key-ac03204d-d8a4-4cc5-89bc-08b76e42104c.xml'.
+DEBUG 2018-03-22 17:32:52,031 [3    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys\key-ac2d16f4-c9b3-47fa-8d0f-d770982e6a4c.xml'.
+DEBUG 2018-03-22 17:32:52,048 [3    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys\key-bc658bea-04c0-492b-97be-f402d818c6a6.xml'.
+DEBUG 2018-03-22 17:32:52,063 [3    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys\key-f593f375-8fa5-4a6b-a701-1ee25955d56c.xml'.
+DEBUG 2018-03-22 17:32:52,121 [3    ] taProtection.KeyManagement.XmlKeyManager - Found key {6be595eb-efc3-4aad-b35e-1657ea83f925}.
+DEBUG 2018-03-22 17:32:52,189 [3    ] taProtection.KeyManagement.XmlKeyManager - Found key {75e373f0-4300-4f53-be2a-906d92f0b8c7}.
+DEBUG 2018-03-22 17:32:52,190 [3    ] taProtection.KeyManagement.XmlKeyManager - Found key {ac03204d-d8a4-4cc5-89bc-08b76e42104c}.
+DEBUG 2018-03-22 17:32:52,190 [3    ] taProtection.KeyManagement.XmlKeyManager - Found key {ac2d16f4-c9b3-47fa-8d0f-d770982e6a4c}.
+DEBUG 2018-03-22 17:32:52,190 [3    ] taProtection.KeyManagement.XmlKeyManager - Found key {bc658bea-04c0-492b-97be-f402d818c6a6}.
+DEBUG 2018-03-22 17:32:52,190 [3    ] taProtection.KeyManagement.XmlKeyManager - Found key {f593f375-8fa5-4a6b-a701-1ee25955d56c}.
+DEBUG 2018-03-22 17:32:52,203 [3    ] tection.KeyManagement.DefaultKeyResolver - Considering key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with expiration date 2018-04-23 22:41:32Z as default key.
+DEBUG 2018-03-22 17:32:52,213 [3    ] e.DataProtection.TypeForwardingActivator - Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+DEBUG 2018-03-22 17:32:52,216 [3    ] otection.XmlEncryption.DpapiXmlDecryptor - Decrypting secret element using Windows DPAPI.
+DEBUG 2018-03-22 17:32:52,222 [3    ] e.DataProtection.TypeForwardingActivator - Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+DEBUG 2018-03-22 17:32:52,235 [3    ] l.CngCbcAuthenticatedEncryptorDescriptor - Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+DEBUG 2018-03-22 17:32:52,259 [3    ] l.CngCbcAuthenticatedEncryptorDescriptor - Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+DEBUG 2018-03-22 17:32:52,274 [3    ] Protection.KeyManagement.KeyRingProvider - Using key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} as the default key.
+INFO  2018-03-22 17:32:55,101 [10   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+DEBUG 2018-03-22 17:32:55,111 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The request path / does not match a supported file type
+DEBUG 2018-03-22 17:32:55,446 [10   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 17:32:55,752 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action AbpCompanyName.AbpProjectName.Web.Controllers.HomeController.Index (AbpCompanyName.AbpProjectName.Web.Mvc)
+INFO  2018-03-22 17:32:55,826 [10   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: parismiguel.
+INFO  2018-03-22 17:32:55,964 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpCompanyName.AbpProjectName.Web.Controllers.HomeController.Index (AbpCompanyName.AbpProjectName.Web.Mvc) with arguments ((null)) - ModelState is Valid
+DEBUG 2018-03-22 17:32:55,970 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method AbpCompanyName.AbpProjectName.Web.Controllers.HomeController.Index (AbpCompanyName.AbpProjectName.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult.
+DEBUG 2018-03-22 17:32:56,945 [4    ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Index' in controller 'Home'.
+DEBUG 2018-03-22 17:32:56,983 [4    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Home/Index.cshtml' started.
+DEBUG 2018-03-22 17:32:57,894 [4    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Home/Index.cshtml' completed in 907.2264ms.
+DEBUG 2018-03-22 17:32:57,899 [4    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' started.
+DEBUG 2018-03-22 17:33:02,947 [4    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' completed in 5049.069ms.
+DEBUG 2018-03-22 17:33:02,954 [4    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/_ViewStart.cshtml' started.
+DEBUG 2018-03-22 17:33:02,968 [4    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/_ViewStart.cshtml' completed in 13.9448ms.
+DEBUG 2018-03-22 17:33:02,968 [4    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/_ViewStart.cshtml' started.
+DEBUG 2018-03-22 17:33:03,036 [4    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/_ViewStart.cshtml' completed in 68.0707ms.
+DEBUG 2018-03-22 17:33:03,051 [4    ] ViewFeatures.Internal.ViewResultExecutor - The view 'Index' was found.
+INFO  2018-03-22 17:33:03,053 [4    ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Home/Index.cshtml.
+DEBUG 2018-03-22 17:33:03,228 [4    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/_Layout.cshtml' started.
+DEBUG 2018-03-22 17:33:03,395 [4    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/_Layout.cshtml' completed in 167.1494ms.
+DEBUG 2018-03-22 17:33:03,395 [4    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/_Layout.cshtml' started.
+DEBUG 2018-03-22 17:33:03,721 [4    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/_Layout.cshtml' completed in 325.1548ms.
+DEBUG 2018-03-22 17:33:03,764 [4    ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with purposes ('D:\PARIS\Visual Studio 2017\Source\TeamServices\Crm103Core1x\AbpCompanyName.AbpProjectName.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2018-03-22 17:33:03,785 [4    ] .KeyManagement.KeyRingBasedDataProtector - Performing protect operation to key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with purposes ('D:\PARIS\Visual Studio 2017\Source\TeamServices\Crm103Core1x\AbpCompanyName.AbpProjectName.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2018-03-22 17:33:03,795 [4    ] .Antiforgery.Internal.DefaultAntiforgery - An antiforgery cookie token was reused.
+DEBUG 2018-03-22 17:33:05,137 [9    ] ewComponents.DefaultViewComponentInvoker - Executing view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.TopBarLanguageSwitch.TopBarLanguageSwitchViewComponent with arguments ().
+DEBUG 2018-03-22 17:33:05,157 [9    ] ewComponents.DefaultViewComponentInvoker - Executed view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.TopBarLanguageSwitch.TopBarLanguageSwitchViewComponent in 16.1532ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2018-03-22 17:33:05,161 [9    ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/TopBarLanguageSwitch/Default' in controller 'Home'.
+DEBUG 2018-03-22 17:33:05,162 [9    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/TopBarLanguageSwitch/Default.cshtml' started.
+DEBUG 2018-03-22 17:33:05,206 [9    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/TopBarLanguageSwitch/Default.cshtml' completed in 44.6269ms.
+DEBUG 2018-03-22 17:33:05,207 [9    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/TopBarLanguageSwitch/Default.cshtml' started.
+DEBUG 2018-03-22 17:33:05,292 [9    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/TopBarLanguageSwitch/Default.cshtml' completed in 85.1026ms.
+DEBUG 2018-03-22 17:33:05,429 [9    ] ewComponents.DefaultViewComponentInvoker - Executing view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.SideBarUserArea.SideBarUserAreaViewComponent with arguments ().
+DEBUG 2018-03-22 17:33:06,011 [3    ] ewComponents.DefaultViewComponentInvoker - Executed view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.SideBarUserArea.SideBarUserAreaViewComponent in 581.503ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2018-03-22 17:33:06,011 [3    ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/SideBarUserArea/Default' in controller 'Home'.
+DEBUG 2018-03-22 17:33:06,012 [3    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/SideBarUserArea/Default.cshtml' started.
+DEBUG 2018-03-22 17:33:06,051 [3    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/SideBarUserArea/Default.cshtml' completed in 39.2904ms.
+DEBUG 2018-03-22 17:33:06,051 [3    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/SideBarUserArea/Default.cshtml' started.
+DEBUG 2018-03-22 17:33:06,160 [3    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/SideBarUserArea/Default.cshtml' completed in 109.1354ms.
+DEBUG 2018-03-22 17:33:06,890 [3    ] ewComponents.DefaultViewComponentInvoker - Executing view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.SideBarNav.SideBarNavViewComponent with arguments (Home).
+DEBUG 2018-03-22 17:33:09,648 [10   ] ewComponents.DefaultViewComponentInvoker - Executed view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.SideBarNav.SideBarNavViewComponent in 2757.9388ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2018-03-22 17:33:09,648 [10   ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/SideBarNav/Default' in controller 'Home'.
+DEBUG 2018-03-22 17:33:09,649 [10   ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/SideBarNav/Default.cshtml' started.
+DEBUG 2018-03-22 17:33:09,685 [10   ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/SideBarNav/Default.cshtml' completed in 35.9688ms.
+DEBUG 2018-03-22 17:33:09,685 [10   ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/SideBarNav/Default.cshtml' started.
+DEBUG 2018-03-22 17:33:09,791 [10   ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/SideBarNav/Default.cshtml' completed in 105.3578ms.
+DEBUG 2018-03-22 17:33:09,809 [10   ] ewComponents.DefaultViewComponentInvoker - Executing view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.RightSideBar.RightSideBarViewComponent with arguments ().
+DEBUG 2018-03-22 17:33:09,813 [10   ] ewComponents.DefaultViewComponentInvoker - Executed view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.RightSideBar.RightSideBarViewComponent in 4.1046ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2018-03-22 17:33:09,813 [10   ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/RightSideBar/Default' in controller 'Home'.
+DEBUG 2018-03-22 17:33:09,817 [10   ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/RightSideBar/Default.cshtml' started.
+DEBUG 2018-03-22 17:33:09,860 [10   ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/RightSideBar/Default.cshtml' completed in 43.0325ms.
+DEBUG 2018-03-22 17:33:09,860 [10   ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/RightSideBar/Default.cshtml' started.
+DEBUG 2018-03-22 17:33:09,920 [10   ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/RightSideBar/Default.cshtml' completed in 60.4843ms.
+DEBUG 2018-03-22 17:33:10,645 [10   ] .KeyManagement.KeyRingBasedDataProtector - Performing protect operation to key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with purposes ('D:\PARIS\Visual Studio 2017\Source\TeamServices\Crm103Core1x\AbpCompanyName.AbpProjectName.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2018-03-22 17:33:10,766 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpCompanyName.AbpProjectName.Web.Controllers.HomeController.Index (AbpCompanyName.AbpProjectName.Web.Mvc) in 15013.9389ms
+DEBUG 2018-03-22 17:33:10,797 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8J1G0KR7" completed keep alive response.
+INFO  2018-03-22 17:33:10,857 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19096.8478ms 200 text/html; charset=utf-8
+INFO  2018-03-22 17:33:11,265 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44309/AbpServiceProxies/GetAll?v=636573367223342823  
+DEBUG 2018-03-22 17:33:11,266 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8J1G0KR8" started.
+INFO  2018-03-22 17:33:11,266 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44309/AbpScripts/GetScripts?v=636573367223342823  
+DEBUG 2018-03-22 17:33:11,278 [9    ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with purposes ('D:\PARIS\Visual Studio 2017\Source\TeamServices\Crm103Core1x\AbpCompanyName.AbpProjectName.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+DEBUG 2018-03-22 17:33:11,278 [19   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with purposes ('D:\PARIS\Visual Studio 2017\Source\TeamServices\Crm103Core1x\AbpCompanyName.AbpProjectName.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2018-03-22 17:33:11,282 [9    ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+INFO  2018-03-22 17:33:11,283 [19   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+DEBUG 2018-03-22 17:33:11,283 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The request path /AbpServiceProxies/GetAll does not match a supported file type
+DEBUG 2018-03-22 17:33:11,283 [19   ] NetCore.StaticFiles.StaticFileMiddleware - The request path /AbpScripts/GetScripts does not match a supported file type
+DEBUG 2018-03-22 17:33:11,284 [19   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 17:33:11,284 [9    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 17:33:11,284 [9    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 17:33:11,284 [19   ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 17:33:11,285 [9    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 17:33:11,285 [19   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 17:33:11,287 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+DEBUG 2018-03-22 17:33:11,287 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2018-03-22 17:33:11,375 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-03-22 17:33:11,503 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+DEBUG 2018-03-22 17:33:12,187 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ObjectResult.
+DEBUG 2018-03-22 17:33:12,213 [9    ] etCore.Mvc.Internal.ObjectResultExecutor - No information found on request to perform content negotiation.
+DEBUG 2018-03-22 17:33:12,221 [9    ] etCore.Mvc.Internal.ObjectResultExecutor - Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/javascript' to write the response.
+INFO  2018-03-22 17:33:12,222 [9    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-03-22 17:33:12,233 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 946.2561ms
+DEBUG 2018-03-22 17:33:12,234 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8J1G0KR7" completed keep alive response.
+INFO  2018-03-22 17:33:12,234 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 968.9145ms 200 text/javascript; charset=utf-8
+DEBUG 2018-03-22 17:33:13,125 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult.
+INFO  2018-03-22 17:33:13,297 [19   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-03-22 17:33:13,300 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 2012.6226ms
+DEBUG 2018-03-22 17:33:13,301 [19   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8J1G0KR8" completed keep alive response.
+INFO  2018-03-22 17:33:13,301 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2034.7109ms 200 application/x-javascript; charset=utf-8
+DEBUG 2018-03-22 17:35:12,557 [21   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8J1G0KR7" disconnecting.
+DEBUG 2018-03-22 17:35:12,558 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8J1G0KR7" sending FIN.
+DEBUG 2018-03-22 17:35:12,567 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8J1G0KR7" sent FIN with status "0".
+DEBUG 2018-03-22 17:35:12,567 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8J1G0KR7" stopped.
+DEBUG 2018-03-22 17:35:13,556 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8J1G0KR8" disconnecting.
+DEBUG 2018-03-22 17:35:13,556 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8J1G0KR8" sending FIN.
+DEBUG 2018-03-22 17:35:13,557 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8J1G0KR8" sent FIN with status "0".
+DEBUG 2018-03-22 17:35:13,557 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8J1G0KR8" stopped.
+DEBUG 2018-03-22 17:37:24,625 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-03-22 17:37:24,672 [1    ] Abp.Modules.AbpModuleManager             - Found 14 ABP modules in total.
+DEBUG 2018-03-22 17:37:24,694 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.Web.Startup.AbpProjectNameWebMvcModule, AbpCompanyName.AbpProjectName.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:37:24,702 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameWebCoreModule, AbpCompanyName.AbpProjectName.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:37:24,702 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameApplicationModule, AbpCompanyName.AbpProjectName.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:37:24,703 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameCoreModule, AbpCompanyName.AbpProjectName.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:37:24,703 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:37:24,704 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:37:24,704 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:37:24,705 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:37:24,706 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.EntityFrameworkCore.AbpProjectNameEntityFrameworkModule, AbpCompanyName.AbpProjectName.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:37:24,706 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:37:24,707 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:37:24,707 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:37:24,708 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:37:24,709 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:37:24,714 [1    ] Abp.Modules.AbpModuleManager             - 14 modules loaded.
+DEBUG 2018-03-22 17:37:24,817 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 17:37:24,817 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 17:37:24,817 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpProjectName-es-PE (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 17:37:24,817 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 17:37:25,170 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AbpCompanyName.AbpProjectName.EntityFrameworkCore.AbpProjectNameDbContext, AbpCompanyName.AbpProjectName.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:37:25,638 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-03-22 17:37:25,691 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-03-22 17:37:25,702 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-03-22 17:37:25,705 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpProjectName-es-PE
+DEBUG 2018-03-22 17:37:25,706 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-03-22 17:37:25,754 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-22 17:37:25,811 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2018-03-22 17:37:25,811 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-03-22 17:37:25,815 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Users.Dto.CreateUserDto
+DEBUG 2018-03-22 17:37:25,815 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Users.Dto.UserDto
+DEBUG 2018-03-22 17:37:25,815 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-03-22 17:37:25,815 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-03-22 17:37:25,815 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.CreateRoleDto
+DEBUG 2018-03-22 17:37:25,815 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.PermissionDto
+DEBUG 2018-03-22 17:37:25,816 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.RoleDto
+DEBUG 2018-03-22 17:37:25,816 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-03-22 17:37:25,816 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-03-22 17:37:25,816 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.TenantDto
+DEBUG 2018-03-22 17:37:25,816 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+INFO  2018-03-22 17:37:33,141 [1    ] pendencyInjection.DataProtectionServices - User profile is available. Using 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+DEBUG 2018-03-22 17:37:33,183 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Hosting starting
+DEBUG 2018-03-22 17:37:33,273 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Hosting started
+DEBUG 2018-03-22 17:37:33,541 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8M0H2SC7" started.
+INFO  2018-03-22 17:37:33,640 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44309/Crm/GetPhoneNumber?text=Dime%20el%20tel%C3%A9fono%20de%20Starbucks%20Pueblo%20Libre%20Peru  0
+DEBUG 2018-03-22 17:37:33,766 [3    ] NetCore.StaticFiles.StaticFileMiddleware - POST requests are not supported
+DEBUG 2018-03-22 17:37:33,999 [3    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 17:37:34,027 [3    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 17:37:34,028 [3    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 17:37:34,841 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc)
+INFO  2018-03-22 17:37:35,199 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc) with arguments (Dime el teléfono de Starbucks Pueblo Libre Peru) - ModelState is Valid
+DEBUG 2018-03-22 17:37:38,123 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.JsonResult.
+INFO  2018-03-22 17:37:38,765 [4    ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-03-22 17:37:38,895 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc) in 4052.1343ms
+DEBUG 2018-03-22 17:37:38,916 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8M0H2SC7" completed keep alive response.
+INFO  2018-03-22 17:37:38,931 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5305.4654ms 200 application/json; charset=utf-8
+DEBUG 2018-03-22 17:39:23,515 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8M0H2SC7" received FIN.
+DEBUG 2018-03-22 17:39:23,519 [3    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8M0H2SC7" disconnecting.
+DEBUG 2018-03-22 17:39:23,520 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8M0H2SC7" sending FIN.
+DEBUG 2018-03-22 17:39:23,533 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8M0H2SC7" sent FIN with status "0".
+DEBUG 2018-03-22 17:39:23,540 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8M0H2SC7" stopped.
+DEBUG 2018-03-22 17:42:02,189 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-03-22 17:42:02,467 [1    ] Abp.Modules.AbpModuleManager             - Found 14 ABP modules in total.
+DEBUG 2018-03-22 17:42:02,503 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.Web.Startup.AbpProjectNameWebMvcModule, AbpCompanyName.AbpProjectName.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:42:02,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameWebCoreModule, AbpCompanyName.AbpProjectName.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:42:02,510 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameApplicationModule, AbpCompanyName.AbpProjectName.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:42:02,510 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameCoreModule, AbpCompanyName.AbpProjectName.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:42:02,511 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:42:02,511 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:42:02,512 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:42:02,512 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:42:02,513 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.EntityFrameworkCore.AbpProjectNameEntityFrameworkModule, AbpCompanyName.AbpProjectName.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:42:02,513 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:42:02,514 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:42:02,514 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:42:02,514 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:42:02,515 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:42:02,519 [1    ] Abp.Modules.AbpModuleManager             - 14 modules loaded.
+DEBUG 2018-03-22 17:42:02,664 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 17:42:02,664 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 17:42:02,664 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpProjectName-es-PE (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 17:42:02,664 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 17:42:03,441 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AbpCompanyName.AbpProjectName.EntityFrameworkCore.AbpProjectNameDbContext, AbpCompanyName.AbpProjectName.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 17:42:04,842 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-03-22 17:42:04,970 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-03-22 17:42:04,978 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-03-22 17:42:04,981 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpProjectName-es-PE
+DEBUG 2018-03-22 17:42:04,982 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-03-22 17:42:05,282 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-22 17:42:05,384 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2018-03-22 17:42:05,385 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-03-22 17:42:05,390 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Users.Dto.CreateUserDto
+DEBUG 2018-03-22 17:42:05,391 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Users.Dto.UserDto
+DEBUG 2018-03-22 17:42:05,391 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-03-22 17:42:05,391 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-03-22 17:42:05,391 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.CreateRoleDto
+DEBUG 2018-03-22 17:42:05,391 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.PermissionDto
+DEBUG 2018-03-22 17:42:05,391 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.RoleDto
+DEBUG 2018-03-22 17:42:05,391 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-03-22 17:42:05,391 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-03-22 17:42:05,391 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.TenantDto
+DEBUG 2018-03-22 17:42:05,391 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+INFO  2018-03-22 17:42:15,394 [1    ] pendencyInjection.DataProtectionServices - User profile is available. Using 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+DEBUG 2018-03-22 17:42:15,494 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Hosting starting
+DEBUG 2018-03-22 17:42:15,784 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Hosting started
+DEBUG 2018-03-22 17:42:15,803 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8OKKTEH0" started.
+DEBUG 2018-03-22 17:42:15,803 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8OKKTEGV" started.
+DEBUG 2018-03-22 17:42:15,814 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8OKKTEH0" reset.
+DEBUG 2018-03-22 17:42:15,849 [3    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8OKKTEH0" disconnecting.
+DEBUG 2018-03-22 17:42:15,861 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8OKKTEH0" stopped.
+INFO  2018-03-22 17:42:15,982 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44309/  
+DEBUG 2018-03-22 17:42:16,285 [8    ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with purposes ('D:\PARIS\Visual Studio 2017\Source\TeamServices\Crm103Core1x\AbpCompanyName.AbpProjectName.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+DEBUG 2018-03-22 17:42:16,303 [8    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys\key-6be595eb-efc3-4aad-b35e-1657ea83f925.xml'.
+DEBUG 2018-03-22 17:42:16,325 [8    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys\key-75e373f0-4300-4f53-be2a-906d92f0b8c7.xml'.
+DEBUG 2018-03-22 17:42:16,326 [8    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys\key-ac03204d-d8a4-4cc5-89bc-08b76e42104c.xml'.
+DEBUG 2018-03-22 17:42:16,326 [8    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys\key-ac2d16f4-c9b3-47fa-8d0f-d770982e6a4c.xml'.
+DEBUG 2018-03-22 17:42:16,327 [8    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys\key-bc658bea-04c0-492b-97be-f402d818c6a6.xml'.
+DEBUG 2018-03-22 17:42:16,328 [8    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys\key-f593f375-8fa5-4a6b-a701-1ee25955d56c.xml'.
+DEBUG 2018-03-22 17:42:16,347 [8    ] taProtection.KeyManagement.XmlKeyManager - Found key {6be595eb-efc3-4aad-b35e-1657ea83f925}.
+DEBUG 2018-03-22 17:42:16,428 [8    ] taProtection.KeyManagement.XmlKeyManager - Found key {75e373f0-4300-4f53-be2a-906d92f0b8c7}.
+DEBUG 2018-03-22 17:42:16,428 [8    ] taProtection.KeyManagement.XmlKeyManager - Found key {ac03204d-d8a4-4cc5-89bc-08b76e42104c}.
+DEBUG 2018-03-22 17:42:16,428 [8    ] taProtection.KeyManagement.XmlKeyManager - Found key {ac2d16f4-c9b3-47fa-8d0f-d770982e6a4c}.
+DEBUG 2018-03-22 17:42:16,428 [8    ] taProtection.KeyManagement.XmlKeyManager - Found key {bc658bea-04c0-492b-97be-f402d818c6a6}.
+DEBUG 2018-03-22 17:42:16,428 [8    ] taProtection.KeyManagement.XmlKeyManager - Found key {f593f375-8fa5-4a6b-a701-1ee25955d56c}.
+DEBUG 2018-03-22 17:42:16,445 [8    ] tection.KeyManagement.DefaultKeyResolver - Considering key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with expiration date 2018-04-23 22:41:32Z as default key.
+DEBUG 2018-03-22 17:42:16,460 [8    ] e.DataProtection.TypeForwardingActivator - Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+DEBUG 2018-03-22 17:42:16,465 [8    ] otection.XmlEncryption.DpapiXmlDecryptor - Decrypting secret element using Windows DPAPI.
+DEBUG 2018-03-22 17:42:16,472 [8    ] e.DataProtection.TypeForwardingActivator - Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+DEBUG 2018-03-22 17:42:16,488 [8    ] l.CngCbcAuthenticatedEncryptorDescriptor - Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+DEBUG 2018-03-22 17:42:16,501 [8    ] l.CngCbcAuthenticatedEncryptorDescriptor - Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+DEBUG 2018-03-22 17:42:16,520 [8    ] Protection.KeyManagement.KeyRingProvider - Using key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} as the default key.
+INFO  2018-03-22 17:42:22,836 [10   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+DEBUG 2018-03-22 17:42:22,851 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The request path / does not match a supported file type
+DEBUG 2018-03-22 17:42:24,080 [10   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 17:42:24,553 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action AbpCompanyName.AbpProjectName.Web.Controllers.HomeController.Index (AbpCompanyName.AbpProjectName.Web.Mvc)
+INFO  2018-03-22 17:42:24,620 [10   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2018-03-22 17:42:24,712 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpCompanyName.AbpProjectName.Web.Controllers.HomeController.Index (AbpCompanyName.AbpProjectName.Web.Mvc) with arguments ((null)) - ModelState is Valid
+DEBUG 2018-03-22 17:42:24,716 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method AbpCompanyName.AbpProjectName.Web.Controllers.HomeController.Index (AbpCompanyName.AbpProjectName.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult.
+DEBUG 2018-03-22 17:42:26,919 [3    ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Index' in controller 'Home'.
+DEBUG 2018-03-22 17:42:26,962 [3    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Home/Index.cshtml' started.
+DEBUG 2018-03-22 17:42:28,346 [3    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Home/Index.cshtml' completed in 1380.3205ms.
+DEBUG 2018-03-22 17:42:28,522 [3    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' started.
+DEBUG 2018-03-22 17:42:36,715 [3    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' completed in 8191.9961ms.
+DEBUG 2018-03-22 17:42:36,722 [3    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/_ViewStart.cshtml' started.
+DEBUG 2018-03-22 17:42:36,736 [3    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/_ViewStart.cshtml' completed in 14.3158ms.
+DEBUG 2018-03-22 17:42:36,736 [3    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/_ViewStart.cshtml' started.
+DEBUG 2018-03-22 17:42:36,836 [3    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/_ViewStart.cshtml' completed in 99.3797ms.
+DEBUG 2018-03-22 17:42:36,900 [3    ] ViewFeatures.Internal.ViewResultExecutor - The view 'Index' was found.
+INFO  2018-03-22 17:42:36,903 [3    ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Home/Index.cshtml.
+DEBUG 2018-03-22 17:42:38,157 [3    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/_Layout.cshtml' started.
+DEBUG 2018-03-22 17:42:38,298 [3    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/_Layout.cshtml' completed in 141.3286ms.
+DEBUG 2018-03-22 17:42:38,299 [3    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/_Layout.cshtml' started.
+DEBUG 2018-03-22 17:42:38,604 [3    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/_Layout.cshtml' completed in 305.6965ms.
+DEBUG 2018-03-22 17:42:38,665 [3    ] .KeyManagement.KeyRingBasedDataProtector - Performing protect operation to key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with purposes ('D:\PARIS\Visual Studio 2017\Source\TeamServices\Crm103Core1x\AbpCompanyName.AbpProjectName.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2018-03-22 17:42:38,672 [3    ] .KeyManagement.KeyRingBasedDataProtector - Performing protect operation to key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with purposes ('D:\PARIS\Visual Studio 2017\Source\TeamServices\Crm103Core1x\AbpCompanyName.AbpProjectName.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2018-03-22 17:42:38,697 [3    ] .Antiforgery.Internal.DefaultAntiforgery - A new antiforgery cookie token was created.
+DEBUG 2018-03-22 17:42:39,962 [4    ] ewComponents.DefaultViewComponentInvoker - Executing view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.TopBarLanguageSwitch.TopBarLanguageSwitchViewComponent with arguments ().
+DEBUG 2018-03-22 17:42:40,005 [4    ] ewComponents.DefaultViewComponentInvoker - Executed view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.TopBarLanguageSwitch.TopBarLanguageSwitchViewComponent in 38.8989ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2018-03-22 17:42:40,011 [4    ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/TopBarLanguageSwitch/Default' in controller 'Home'.
+DEBUG 2018-03-22 17:42:40,012 [4    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/TopBarLanguageSwitch/Default.cshtml' started.
+DEBUG 2018-03-22 17:42:40,219 [4    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/TopBarLanguageSwitch/Default.cshtml' completed in 206.9235ms.
+DEBUG 2018-03-22 17:42:40,219 [4    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/TopBarLanguageSwitch/Default.cshtml' started.
+DEBUG 2018-03-22 17:42:40,347 [4    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/TopBarLanguageSwitch/Default.cshtml' completed in 127.3967ms.
+DEBUG 2018-03-22 17:42:41,082 [4    ] ewComponents.DefaultViewComponentInvoker - Executing view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.SideBarUserArea.SideBarUserAreaViewComponent with arguments ().
+DEBUG 2018-03-22 17:42:41,667 [10   ] ewComponents.DefaultViewComponentInvoker - Executed view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.SideBarUserArea.SideBarUserAreaViewComponent in 583.8465ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2018-03-22 17:42:41,667 [10   ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/SideBarUserArea/Default' in controller 'Home'.
+DEBUG 2018-03-22 17:42:41,667 [10   ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/SideBarUserArea/Default.cshtml' started.
+DEBUG 2018-03-22 17:42:41,683 [10   ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/SideBarUserArea/Default.cshtml' completed in 15.6563ms.
+DEBUG 2018-03-22 17:42:41,683 [10   ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/SideBarUserArea/Default.cshtml' started.
+DEBUG 2018-03-22 17:42:41,789 [10   ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/SideBarUserArea/Default.cshtml' completed in 105.5901ms.
+DEBUG 2018-03-22 17:42:42,953 [10   ] ewComponents.DefaultViewComponentInvoker - Executing view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.SideBarNav.SideBarNavViewComponent with arguments (Home).
+DEBUG 2018-03-22 17:42:44,667 [9    ] ewComponents.DefaultViewComponentInvoker - Executed view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.SideBarNav.SideBarNavViewComponent in 1712.9796ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2018-03-22 17:42:44,667 [9    ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/SideBarNav/Default' in controller 'Home'.
+DEBUG 2018-03-22 17:42:44,667 [9    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/SideBarNav/Default.cshtml' started.
+DEBUG 2018-03-22 17:42:44,689 [9    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/SideBarNav/Default.cshtml' completed in 22.1199ms.
+DEBUG 2018-03-22 17:42:44,690 [9    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/SideBarNav/Default.cshtml' started.
+DEBUG 2018-03-22 17:42:45,663 [9    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/SideBarNav/Default.cshtml' completed in 973.2827ms.
+DEBUG 2018-03-22 17:42:45,702 [9    ] ewComponents.DefaultViewComponentInvoker - Executing view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.RightSideBar.RightSideBarViewComponent with arguments ().
+DEBUG 2018-03-22 17:42:45,711 [9    ] ewComponents.DefaultViewComponentInvoker - Executed view component AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.RightSideBar.RightSideBarViewComponent in 8.6905ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2018-03-22 17:42:45,711 [9    ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/RightSideBar/Default' in controller 'Home'.
+DEBUG 2018-03-22 17:42:45,711 [9    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/RightSideBar/Default.cshtml' started.
+DEBUG 2018-03-22 17:42:45,737 [9    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/RightSideBar/Default.cshtml' completed in 25.1385ms.
+DEBUG 2018-03-22 17:42:45,737 [9    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/RightSideBar/Default.cshtml' started.
+DEBUG 2018-03-22 17:42:45,839 [9    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/RightSideBar/Default.cshtml' completed in 101.7122ms.
+DEBUG 2018-03-22 17:42:46,437 [9    ] .KeyManagement.KeyRingBasedDataProtector - Performing protect operation to key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with purposes ('D:\PARIS\Visual Studio 2017\Source\TeamServices\Crm103Core1x\AbpCompanyName.AbpProjectName.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2018-03-22 17:42:46,556 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpCompanyName.AbpProjectName.Web.Controllers.HomeController.Index (AbpCompanyName.AbpProjectName.Web.Mvc) in 22002.2747ms
+DEBUG 2018-03-22 17:42:46,606 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8OKKTEGV" completed keep alive response.
+INFO  2018-03-22 17:42:46,623 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 30665.4568ms 200 text/html; charset=utf-8
+INFO  2018-03-22 17:42:46,910 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44309/AbpScripts/GetScripts?v=636573373252861092  
+DEBUG 2018-03-22 17:42:46,911 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8OKKTEH1" started.
+INFO  2018-03-22 17:42:46,911 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44309/AbpServiceProxies/GetAll?v=636573373252861092  
+DEBUG 2018-03-22 17:42:46,922 [8    ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with purposes ('D:\PARIS\Visual Studio 2017\Source\TeamServices\Crm103Core1x\AbpCompanyName.AbpProjectName.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+DEBUG 2018-03-22 17:42:46,922 [3    ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {ac03204d-d8a4-4cc5-89bc-08b76e42104c} with purposes ('D:\PARIS\Visual Studio 2017\Source\TeamServices\Crm103Core1x\AbpCompanyName.AbpProjectName.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2018-03-22 17:42:46,928 [3    ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+INFO  2018-03-22 17:42:46,928 [8    ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+DEBUG 2018-03-22 17:42:46,928 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The request path /AbpServiceProxies/GetAll does not match a supported file type
+DEBUG 2018-03-22 17:42:46,928 [3    ] NetCore.StaticFiles.StaticFileMiddleware - The request path /AbpScripts/GetScripts does not match a supported file type
+DEBUG 2018-03-22 17:42:46,929 [3    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 17:42:46,929 [8    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 17:42:46,930 [8    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 17:42:46,930 [3    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 17:42:46,930 [8    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 17:42:46,930 [3    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 17:42:46,933 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+DEBUG 2018-03-22 17:42:46,935 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2018-03-22 17:42:47,052 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-03-22 17:42:47,197 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+DEBUG 2018-03-22 17:42:47,494 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ObjectResult.
+DEBUG 2018-03-22 17:42:47,526 [8    ] etCore.Mvc.Internal.ObjectResultExecutor - No information found on request to perform content negotiation.
+DEBUG 2018-03-22 17:42:47,537 [8    ] etCore.Mvc.Internal.ObjectResultExecutor - Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/javascript' to write the response.
+INFO  2018-03-22 17:42:47,537 [8    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-03-22 17:42:47,551 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 617.9281ms
+DEBUG 2018-03-22 17:42:47,552 [8    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8OKKTEH1" completed keep alive response.
+INFO  2018-03-22 17:42:47,552 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 641.1052ms 200 text/javascript; charset=utf-8
+DEBUG 2018-03-22 17:42:48,089 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult.
+INFO  2018-03-22 17:42:48,203 [3    ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-03-22 17:42:48,205 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 1269.4322ms
+DEBUG 2018-03-22 17:42:48,205 [3    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8OKKTEGV" completed keep alive response.
+INFO  2018-03-22 17:42:48,205 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1295.0495ms 200 application/x-javascript; charset=utf-8
+DEBUG 2018-03-22 17:44:05,774 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8OKKTEH1" received FIN.
+DEBUG 2018-03-22 17:44:05,774 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8OKKTEGV" received FIN.
+DEBUG 2018-03-22 17:44:05,775 [3    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8OKKTEH1" disconnecting.
+DEBUG 2018-03-22 17:44:05,775 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8OKKTEGV" disconnecting.
+DEBUG 2018-03-22 17:44:05,776 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8OKKTEH1" sending FIN.
+DEBUG 2018-03-22 17:44:05,776 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8OKKTEGV" sending FIN.
+DEBUG 2018-03-22 17:44:05,780 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8OKKTEH1" sent FIN with status "0".
+DEBUG 2018-03-22 17:44:05,780 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8OKKTEGV" sent FIN with status "0".
+DEBUG 2018-03-22 17:44:05,780 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8OKKTEH1" stopped.
+DEBUG 2018-03-22 17:44:05,781 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8OKKTEGV" stopped.
+DEBUG 2018-03-22 17:45:08,222 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8OKKTEH2" started.
+INFO  2018-03-22 17:45:08,223 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44309/Crm/GetPhoneNumber?text=Dime%20el%20tel%C3%A9fono%20de%20Starbucks%20Pueblo%20Libre%20Peru  0
+DEBUG 2018-03-22 17:45:08,238 [4    ] NetCore.StaticFiles.StaticFileMiddleware - POST requests are not supported
+DEBUG 2018-03-22 17:45:08,239 [4    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 17:45:08,239 [4    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 17:45:08,239 [4    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 17:45:08,266 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc)
+INFO  2018-03-22 17:45:08,303 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc) with arguments (Dime el teléfono de Starbucks Pueblo Libre Peru) - ModelState is Valid
+DEBUG 2018-03-22 17:47:07,933 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.JsonResult.
+INFO  2018-03-22 17:47:08,287 [22   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-03-22 17:47:08,305 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc) in 120038.9353ms
+DEBUG 2018-03-22 17:47:08,306 [22   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8OKKTEH2" completed keep alive response.
+INFO  2018-03-22 17:47:08,306 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 120082.5422ms 200 application/json; charset=utf-8
+INFO  2018-03-22 17:47:23,053 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44309/Crm/GetPhoneNumber?text=Dime%20el%20tel%C3%A9fono%20de%20Starbucks%20Miraflores,%20Peru  0
+DEBUG 2018-03-22 17:47:23,054 [3    ] NetCore.StaticFiles.StaticFileMiddleware - POST requests are not supported
+DEBUG 2018-03-22 17:47:23,054 [3    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 17:47:23,055 [3    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 17:47:23,055 [3    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 17:47:23,062 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc)
+INFO  2018-03-22 17:47:23,065 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc) with arguments (Dime el teléfono de Starbucks Miraflores, Peru) - ModelState is Valid
+DEBUG 2018-03-22 17:48:21,154 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.JsonResult.
+INFO  2018-03-22 17:48:21,676 [4    ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-03-22 17:48:21,678 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc) in 58616.4676ms
+DEBUG 2018-03-22 17:48:21,679 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8OKKTEH2" completed keep alive response.
+INFO  2018-03-22 17:48:21,680 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 58627.3539ms 200 application/json; charset=utf-8
+INFO  2018-03-22 17:48:34,070 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44309/Crm/GetPhoneNumber?text=Dime%20el%20tel%C3%A9fono%20de%20Starbucks%20Miraflores,%20Per%C3%BA  0
+DEBUG 2018-03-22 17:48:34,071 [27   ] NetCore.StaticFiles.StaticFileMiddleware - POST requests are not supported
+DEBUG 2018-03-22 17:48:34,072 [27   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 17:48:34,072 [27   ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 17:48:34,072 [27   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 17:48:34,076 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc)
+INFO  2018-03-22 17:48:34,077 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc) with arguments (Dime el teléfono de Starbucks Miraflores, Perú) - ModelState is Valid
+DEBUG 2018-03-22 17:49:14,650 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.JsonResult.
+INFO  2018-03-22 17:49:15,182 [3    ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-03-22 17:49:15,182 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc) in 41106.5643ms
+DEBUG 2018-03-22 17:49:15,183 [3    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8OKKTEH2" completed keep alive response.
+INFO  2018-03-22 17:49:15,183 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41112.371ms 200 application/json; charset=utf-8
+INFO  2018-03-22 17:49:25,501 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44309/Crm/GetPhoneNumber?text=Dime%20el%20tel%C3%A9fono%20de%20Starbucks%20,%20Lima,%20Per%C3%BA  0
+DEBUG 2018-03-22 17:49:25,502 [34   ] NetCore.StaticFiles.StaticFileMiddleware - POST requests are not supported
+DEBUG 2018-03-22 17:49:25,502 [34   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 17:49:25,502 [34   ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 17:49:25,502 [34   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 17:49:25,507 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc)
+INFO  2018-03-22 17:49:25,508 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc) with arguments (Dime el teléfono de Starbucks , Lima, Perú) - ModelState is Valid
+DEBUG 2018-03-22 17:54:55,473 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.JsonResult.
+INFO  2018-03-22 17:54:55,820 [36   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-03-22 17:54:55,820 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc) in 330312.9534ms
+DEBUG 2018-03-22 17:54:55,821 [36   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8OKKTEH2" completed keep alive response.
+INFO  2018-03-22 17:54:55,821 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 330319.2408ms 200 application/json; charset=utf-8
+DEBUG 2018-03-22 17:56:55,773 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8OKKTEH2" received FIN.
+DEBUG 2018-03-22 17:56:55,773 [3    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8OKKTEH2" disconnecting.
+DEBUG 2018-03-22 17:56:55,773 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8OKKTEH2" sending FIN.
+DEBUG 2018-03-22 17:56:55,774 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8OKKTEH2" sent FIN with status "0".
+DEBUG 2018-03-22 17:56:55,774 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8OKKTEH2" stopped.
+DEBUG 2018-03-22 17:58:09,189 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8OKKTEH3" started.
+INFO  2018-03-22 17:58:09,190 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44309/Crm/GetPhoneNumber?text=Dime%20el%20tel%C3%A9fono%20de%20Starbucks%20,%20Lima,%20Per%C3%BA  0
+DEBUG 2018-03-22 17:58:09,191 [3    ] NetCore.StaticFiles.StaticFileMiddleware - POST requests are not supported
+DEBUG 2018-03-22 17:58:09,191 [3    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 17:58:09,192 [3    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 17:58:09,192 [3    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 17:58:09,196 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc)
+INFO  2018-03-22 17:58:09,197 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc) with arguments (Dime el teléfono de Starbucks , Lima, Perú) - ModelState is Valid
+DEBUG 2018-03-22 17:59:01,747 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.JsonResult.
+INFO  2018-03-22 17:59:03,313 [34   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-03-22 17:59:03,313 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc) in 54117.6403ms
+DEBUG 2018-03-22 17:59:03,314 [34   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG8OKKTEH3" completed keep alive response.
+INFO  2018-03-22 17:59:03,314 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 54123.9546ms 200 application/json; charset=utf-8
+INFO  2018-03-22 17:59:59,847 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44309/Crm/GetPhoneNumber?text=Dime%20el%20tel%C3%A9fono%20de%20Starbucks%20,%20Lima,%20Per%C3%BA  0
+DEBUG 2018-03-22 17:59:59,849 [3    ] NetCore.StaticFiles.StaticFileMiddleware - POST requests are not supported
+DEBUG 2018-03-22 17:59:59,849 [3    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 17:59:59,849 [3    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 17:59:59,849 [3    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 17:59:59,853 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc)
+INFO  2018-03-22 17:59:59,855 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc) with arguments (Dime el teléfono de Starbucks , Lima, Perú) - ModelState is Valid
+DEBUG 2018-03-22 18:01:40,475 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-03-22 18:01:40,504 [1    ] Abp.Modules.AbpModuleManager             - Found 14 ABP modules in total.
+DEBUG 2018-03-22 18:01:40,519 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.Web.Startup.AbpProjectNameWebMvcModule, AbpCompanyName.AbpProjectName.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 18:01:40,523 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameWebCoreModule, AbpCompanyName.AbpProjectName.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 18:01:40,524 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameApplicationModule, AbpCompanyName.AbpProjectName.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 18:01:40,524 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.AbpProjectNameCoreModule, AbpCompanyName.AbpProjectName.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 18:01:40,524 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 18:01:40,524 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 18:01:40,525 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 18:01:40,525 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 18:01:40,526 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpCompanyName.AbpProjectName.EntityFrameworkCore.AbpProjectNameEntityFrameworkModule, AbpCompanyName.AbpProjectName.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 18:01:40,526 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 18:01:40,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 18:01:40,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 18:01:40,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 18:01:40,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 18:01:40,532 [1    ] Abp.Modules.AbpModuleManager             - 14 modules loaded.
+DEBUG 2018-03-22 18:01:40,605 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 18:01:40,605 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 18:01:40,605 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpProjectName-es-PE (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 18:01:40,605 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-22 18:01:40,887 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AbpCompanyName.AbpProjectName.EntityFrameworkCore.AbpProjectNameDbContext, AbpCompanyName.AbpProjectName.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-22 18:01:41,309 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-03-22 18:01:41,360 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-03-22 18:01:41,366 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-03-22 18:01:41,369 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpProjectName-es-PE
+DEBUG 2018-03-22 18:01:41,370 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-03-22 18:01:41,411 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-22 18:01:41,492 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2018-03-22 18:01:41,492 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-03-22 18:01:41,495 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Users.Dto.CreateUserDto
+DEBUG 2018-03-22 18:01:41,496 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Users.Dto.UserDto
+DEBUG 2018-03-22 18:01:41,496 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-03-22 18:01:41,496 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-03-22 18:01:41,496 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.CreateRoleDto
+DEBUG 2018-03-22 18:01:41,496 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.PermissionDto
+DEBUG 2018-03-22 18:01:41,496 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Roles.Dto.RoleDto
+DEBUG 2018-03-22 18:01:41,496 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-03-22 18:01:41,496 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-03-22 18:01:41,496 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.MultiTenancy.Dto.TenantDto
+DEBUG 2018-03-22 18:01:41,496 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpCompanyName.AbpProjectName.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+INFO  2018-03-22 18:01:48,489 [1    ] pendencyInjection.DataProtectionServices - User profile is available. Using 'C:\Users\proin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+DEBUG 2018-03-22 18:01:48,531 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Hosting starting
+DEBUG 2018-03-22 18:01:48,671 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Hosting started
+DEBUG 2018-03-22 18:01:48,739 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG93I6U2AM" started.
+INFO  2018-03-22 18:01:48,856 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44309/Crm/GetPhoneNumber?text=Dime%20el%20tel%C3%A9fono%20de%20Starbucks%20,%20Lima,%20Per%C3%BA  0
+DEBUG 2018-03-22 18:01:48,980 [8    ] NetCore.StaticFiles.StaticFileMiddleware - POST requests are not supported
+DEBUG 2018-03-22 18:01:49,307 [8    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 18:01:49,339 [8    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 18:01:49,340 [8    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 18:01:50,112 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc)
+INFO  2018-03-22 18:01:50,445 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc) with arguments (Dime el teléfono de Starbucks , Lima, Perú) - ModelState is Valid
+DEBUG 2018-03-22 18:01:52,673 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.JsonResult.
+INFO  2018-03-22 18:01:53,249 [10   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-03-22 18:01:53,387 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc) in 3272.4876ms
+DEBUG 2018-03-22 18:01:53,405 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG93I6U2AM" completed keep alive response.
+INFO  2018-03-22 18:01:53,416 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4578.3907ms 200 application/json; charset=utf-8

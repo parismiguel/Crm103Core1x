@@ -36,6 +36,7 @@ namespace AbpCompanyName.AbpProjectName.Migrator
                     Component.For<IEventBus>().Instance(NullEventBus.Instance)
                 );
             });
+
         }
 
         public override void Initialize()

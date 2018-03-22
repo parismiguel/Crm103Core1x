@@ -22,6 +22,7 @@ namespace AbpCompanyName.AbpProjectName.Web.Startup
         public override void PreInitialize()
         {
             Configuration.Navigation.Providers.Add<AbpProjectNameNavigationProvider>();
+
         }
 
         public override void Initialize()
