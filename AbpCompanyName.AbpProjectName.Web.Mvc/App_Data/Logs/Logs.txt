@@ -22434,3 +22434,33 @@ INFO  2018-03-22 18:01:53,249 [10   ] matters.Json.Internal.JsonResultExecutor -
 INFO  2018-03-22 18:01:53,387 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc) in 3272.4876ms
 DEBUG 2018-03-22 18:01:53,405 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG93I6U2AM" completed keep alive response.
 INFO  2018-03-22 18:01:53,416 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4578.3907ms 200 application/json; charset=utf-8
+INFO  2018-03-22 18:02:16,470 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44309/Crm/GetPhoneNumber?text=Dime%20el%20tel%C3%A9fono%20de%20Bembos,%20Lima,%20Per%C3%BA  0
+DEBUG 2018-03-22 18:02:16,471 [9    ] NetCore.StaticFiles.StaticFileMiddleware - POST requests are not supported
+DEBUG 2018-03-22 18:02:16,471 [9    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 18:02:16,471 [9    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 18:02:16,471 [9    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 18:02:16,478 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc)
+INFO  2018-03-22 18:02:16,483 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc) with arguments (Dime el teléfono de Bembos, Lima, Perú) - ModelState is Valid
+DEBUG 2018-03-22 18:02:18,587 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.JsonResult.
+INFO  2018-03-22 18:02:18,926 [8    ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-03-22 18:02:18,926 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc) in 2448.3261ms
+DEBUG 2018-03-22 18:02:18,927 [8    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG93I6U2AM" completed keep alive response.
+INFO  2018-03-22 18:02:18,927 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2458.0153ms 200 application/json; charset=utf-8
+DEBUG 2018-03-22 18:03:40,354 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG93I6U2AM" received FIN.
+DEBUG 2018-03-22 18:03:40,355 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG93I6U2AN" started.
+INFO  2018-03-22 18:03:40,356 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44309/Crm/GetPhoneNumber?text=Dime%20el%20tel%C3%A9fono%20de%20Bembos,%20Lima,%20Per%C3%BA  0
+DEBUG 2018-03-22 18:03:40,356 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG93I6U2AM" disconnecting.
+DEBUG 2018-03-22 18:03:40,357 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG93I6U2AM" sending FIN.
+DEBUG 2018-03-22 18:03:40,359 [8    ] NetCore.StaticFiles.StaticFileMiddleware - POST requests are not supported
+DEBUG 2018-03-22 18:03:40,359 [8    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 18:03:40,359 [8    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2018-03-22 18:03:40,359 [8    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2018-03-22 18:03:40,363 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG93I6U2AM" sent FIN with status "0".
+DEBUG 2018-03-22 18:03:40,365 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG93I6U2AM" stopped.
+DEBUG 2018-03-22 18:03:40,366 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc)
+INFO  2018-03-22 18:03:40,367 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc) with arguments (Dime el teléfono de Bembos, Lima, Perú) - ModelState is Valid
+DEBUG 2018-03-22 18:03:42,042 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.JsonResult.
+INFO  2018-03-22 18:03:42,381 [10   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-03-22 18:03:42,381 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpCompanyName.AbpProjectName.Web.Mvc.Controllers.CrmController.GetPhoneNumber (AbpCompanyName.AbpProjectName.Web.Mvc) in 2014.6449ms
+DEBUG 2018-03-22 18:03:42,381 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLCG93I6U2AN" completed keep alive response.
+INFO  2018-03-22 18:03:42,381 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2025.5466ms 200 application/json; charset=utf-8
