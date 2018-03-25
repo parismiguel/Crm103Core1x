@@ -22,6 +22,7 @@ namespace AbpCompanyName.AbpProjectName.EntityFrameworkCore.Seed.Host
         private void CreateEditions()
         {
             var defaultEdition = _context.Editions.FirstOrDefault(e => e.Name == EditionManager.DefaultEditionName);
+
             if (defaultEdition == null)
             {
                 defaultEdition = new Edition { Name = EditionManager.DefaultEditionName, DisplayName = EditionManager.DefaultEditionName };

@@ -1,6 +1,7 @@
 ﻿using AbpCompanyName.AbpProjectName.Configuration;
 using AbpCompanyName.AbpProjectName.Web;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.Extensions.Configuration;
 

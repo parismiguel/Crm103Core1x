@@ -32,6 +32,7 @@ namespace AbpCompanyName.AbpProjectName.EntityFrameworkCore.Seed.Tenants
             //Admin role
 
             var adminRole = _context.Roles.FirstOrDefault(r => r.TenantId == _tenantId && r.Name == StaticRoleNames.Tenants.Admin);
+
             if (adminRole == null)
             {
                 adminRole = _context.Roles.Add(new Role(_tenantId, StaticRoleNames.Tenants.Admin, StaticRoleNames.Tenants.Admin) { IsStatic = true }).Entity;
@@ -53,6 +54,7 @@ namespace AbpCompanyName.AbpProjectName.EntityFrameworkCore.Seed.Tenants
                             IsGranted = true,
                             RoleId = adminRole.Id
                         });
+
                 }
 
                 _context.SaveChanges();
@@ -61,6 +63,7 @@ namespace AbpCompanyName.AbpProjectName.EntityFrameworkCore.Seed.Tenants
             //admin user
 
             var adminUser = _context.Users.FirstOrDefault(u => u.TenantId == _tenantId && u.UserName == AbpUserBase.AdminUserName);
+
             if (adminUser == null)
             {
                 adminUser = User.CreateTenantAdminUser(_tenantId, "admin@defaulttenant.com");

@@ -17,7 +17,7 @@ namespace AbpCompanyName.AbpProjectName.Migrations
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.1.2")
-                .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.SerialColumn);
 
             modelBuilder.Entity("Abp.Application.Editions.Edition", b =>
                 {

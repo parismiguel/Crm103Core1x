@@ -28,6 +28,7 @@ namespace AbpCompanyName.AbpProjectName.EntityFrameworkCore.Seed.Host
             //Admin role for host
 
             var adminRoleForHost = _context.Roles.FirstOrDefault(r => r.TenantId == null && r.Name == StaticRoleNames.Host.Admin);
+
             if (adminRoleForHost == null)
             {
                 adminRoleForHost = _context.Roles.Add(new Role(null, StaticRoleNames.Host.Admin, StaticRoleNames.Host.Admin) { IsStatic = true, IsDefault = true }).Entity;
@@ -37,6 +38,7 @@ namespace AbpCompanyName.AbpProjectName.EntityFrameworkCore.Seed.Host
             //admin user for host
 
             var adminUserForHost = _context.Users.FirstOrDefault(u => u.TenantId == null && u.UserName == AbpUserBase.AdminUserName);
+
             if (adminUserForHost == null)
             {
                 var user = new User

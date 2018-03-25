@@ -7,6 +7,7 @@ using Abp.MultiTenancy;
 using AbpCompanyName.AbpProjectName.EntityFrameworkCore.Seed.Host;
 using AbpCompanyName.AbpProjectName.EntityFrameworkCore.Seed.Tenants;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
 
 namespace AbpCompanyName.AbpProjectName.EntityFrameworkCore.Seed
 {

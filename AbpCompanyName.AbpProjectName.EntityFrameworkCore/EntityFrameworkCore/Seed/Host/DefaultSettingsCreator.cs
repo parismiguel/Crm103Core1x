@@ -17,11 +17,11 @@ namespace AbpCompanyName.AbpProjectName.EntityFrameworkCore.Seed.Host
         public void Create()
         {
             //Emailing
-            AddSettingIfNotExists(EmailSettingNames.DefaultFromAddress, "admin@mydomain.com");
-            AddSettingIfNotExists(EmailSettingNames.DefaultFromDisplayName, "mydomain.com mailer");
+            AddSettingIfNotExists(EmailSettingNames.DefaultFromAddress, "admin@vcaperu.com");
+            AddSettingIfNotExists(EmailSettingNames.DefaultFromDisplayName, "VCA");
 
             //Languages
-            AddSettingIfNotExists(LocalizationSettingNames.DefaultLanguage, "en");
+            AddSettingIfNotExists(LocalizationSettingNames.DefaultLanguage, "es-PE");
         }
 
         private void AddSettingIfNotExists(string name, string value, int? tenantId = null)
