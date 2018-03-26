@@ -53,23 +53,24 @@ namespace TemplateCoreParis.Helpers
 
         public static int? GetPhoneNumber(string text, int min, int max)
         {
-            text = new String(text.ToCharArray().Where(c => Char.IsDigit(c)).ToArray()); //Get only digits
+            text = new String(text.ToCharArray().Where(c => Char.IsDigit(c) | c == "/".ToCharArray().FirstOrDefault()).ToArray()); //Get only digits & "/"separator
+
+            string[] numbers = text.Split("/".ToCharArray());
 
             bool isValidDigits = false;
 
-            for (int i = min; i < max + 1; i++)
+            foreach (string item in numbers)
             {
-                isValidDigits = Regex.Match(text, @"^([0-9]{" + i + "})$").Success;
-
-                if (isValidDigits)
+                for (int i = min; i < max + 1; i++)
                 {
-                    break;
-                }
-            }
+                    isValidDigits = Regex.Match(item, @"^([0-9]{" + i + "})$").Success;
 
-            if (isValidDigits)
-            {
-                return int.Parse(text);
+                    if (isValidDigits)
+                    {
+                        return int.Parse(item);
+                    }
+                }
+
             }
 
             return null;
@@ -79,7 +80,7 @@ namespace TemplateCoreParis.Helpers
         {
             bool isValidDigits = false;
 
-            text = text.Replace(".", "").Replace(" ", "").Replace("-","").Replace("(01)", "").Replace("(","").Replace(")","").Replace("+511", "").Replace("+51", "").Replace("+5", "").Replace("+", "");
+            text = text.Replace(".", "").Replace(" ", "").Replace("*", "").Replace("-","").Replace("(01)", "").Replace("(","").Replace(")","").Replace("+511", "").Replace("+51", "").Replace("+5", "").Replace("+", "");
 
             //if (text.StartsWith("1"))
             //{
