@@ -110,6 +110,7 @@ namespace TemplateCoreParis.Helpers
         {
             ResultGoogle result = new ResultGoogle();
 
+            //https://moz.com/blog/the-ultimate-guide-to-the-google-search-parameters
             string urlGoogle = "https://www.google.com.pe/search?q=" + query + "&hl=es-PE&cr=countryPE&gl=countryPE";
 
             HtmlWeb web = new HtmlWeb();
