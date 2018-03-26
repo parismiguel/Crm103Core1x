@@ -6,32 +6,57 @@
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="card">
             <div class="header">
-                <h2>
-                    Pruebas
+                <h2 class="alert alert-info">
+                    Consulta de teléfono de empresa en Google con NLU
                 </h2>
             </div>
             <div class="body">
-                <button class="btn btn-primary" onclick="CallAjaxTest()">Prueba Ajax</button>
+                <div class="row clearfix">
+                    <div class="col-md-6">
+                        <div class="form-group form-float">
+                            <div class="form-line focused">
+                                <input id="query" type="text" name="query" class="validate form-control" placeholder="Ingrese su consulta">
+                                <label for="query" class="form-label">Consulta</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="button" class="btn btn-primary save-button waves-effect" onclick="CallCrmApiAjax()">Procesar</button>
+
+                <div class="row clearfix" style="margin-top:2rem;">
+
+                    <p id="textResult" class="alert-warning" style="margin:1.5rem; color:white;padding:1rem;"></p>
+
+                    <div id="jsonResult"></div>
+                </div>
             </div>
         </div>
     </div>
 </div>
 @section Scripts {
 
+    <script src="~/lib/renderjson.js"></script>
+
     @*https://aspnetboilerplate.com/Pages/Documents/Javascript-API/AJAX*@
 
     <script type="text/javascript">
-        function CallAjaxTest(){
-           var newPerson = {
-                name: 'Paris Pantigoso',
-                age: 38
+        function CallCrmApiAjax(){
+        var $text = $("#query").val();
+
+           var query = {
+                text: $text
             };
 
             abp.ajax({
-                url: '/Crm/SavePerson',
-                data: JSON.stringify(newPerson)
-            }).done(function(data) {
-                abp.notify.success('Persona creada con id = ' + data.personId);
+                url: '/Crm/GetPhoneNumber?text=' + $text,
+                data: JSON.stringify(query)
+            }).done(function (data) {
+                $("#textResult").text(data.message);
+
+                $("#jsonResult").html(renderjson.set_show_to_level(4)(data));
+
+                abp.notify.success('Proceso exitoso!');
             });
         }
 
