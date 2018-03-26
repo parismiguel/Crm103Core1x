@@ -79,6 +79,8 @@ namespace AbpCompanyName.AbpProjectName.Web.Mvc.Controllers
 
                 if (_textModified?.Length > 14)
                 {
+                    _textModified = _textModified.ToTitleCase();
+
                     AnalysisResults _nlu = NluController.Analyze(null, _textModified);
 
                     if (_nlu.Entities != null)
@@ -112,32 +114,48 @@ namespace AbpCompanyName.AbpProjectName.Web.Mvc.Controllers
 
                     //_entity = _nlu.Entities.FirstOrDefault()?.Text;
 
-                    if (string.IsNullOrEmpty(_entity))
-                    {
-                        //response.Message = "No se ha identificado la Entidad. Por favor, vuelva a intentarlo.";
-                        //return Json(response);
 
-                        resultGoogle = GetGoogleSearch(_textModified);
 
-                    }
-                    else
-                    {
-                        //string _queryParsed = string.Format("{0} {1} {2}", text, _district, _country);
-                        string _queryParsed = $"Teléfono {_entity} {_district} {_country}";
+                    //if (string.IsNullOrEmpty(_entity))
+                    //{
+                    //    resultGoogle = GetGoogleSearch(_textModified);
 
-                        resultGoogle = GetGoogleSearch(_queryParsed);
+                    //    //if (_nlu.Keywords != null)
+                    //    //{
+                    //    //    _entity = _nlu.Keywords.Where(k => k.Relevance > 0.8).Select(k => k.Text).FirstOrDefault().ToTitleCase();
 
-                    }
+                    //    //    _entity = _entity.Replace("Teléfono","").Replace("Telefono", "");
+                    //    //}
+
+                    //    //if (string.IsNullOrEmpty(_entity))
+                    //    //{
+                    //    //    resultGoogle = GetGoogleSearch(_textModified);
+                    //    //}
+                    //    //else
+                    //    //{
+                    //    //    resultGoogle = GetGoogleSearch($"Teléfono {_entity } {_district} {_country}");
+                    //    //}
+                    //}
+                    //else
+                    //{
+                    //    string _queryParsed = $"Teléfono {_entity} {_district} {_country}";
+
+                    //    resultGoogle = GetGoogleSearch(_queryParsed);
+
+                    //}
 
                 }
-                else
-                {
+                //else
+                //{
 
-                    resultGoogle = GetGoogleSearch(_textModified);
+                //    resultGoogle = GetGoogleSearch(_textModified);
 
-                }
+                //}
 
-                response.Status = true;
+                resultGoogle = Helpers.GetGoogleSearch(_textModified);
+
+                response.Status = resultGoogle.Status;
+                response.Data = resultGoogle.DocumentString;
 
                 if (Regex.IsMatch(resultGoogle.Text, @"^\d+$"))
                 {
@@ -171,139 +189,6 @@ namespace AbpCompanyName.AbpProjectName.Web.Mvc.Controllers
 
             return Json(response);
 
-        }
-
-        public static ResultGoogle GetGoogleSearch(string query)
-        {
-            ResultGoogle result = new ResultGoogle();
-
-            string urlGoogle = "http://google.com/search?q=" + query;
-
-            HtmlWeb web = new HtmlWeb();
-
-            HtmlDocument doc = web.Load(urlGoogle);
-
-            //the parameter is use xpath see: https://www.w3schools.com/xml/xml_xpath.asp 
-
-            HtmlNodeCollection graphGoogle = doc.DocumentNode.SelectNodes("//table[@class='O6u2Ve']");
-
-            HtmlNodeCollection divsGoogle = doc.DocumentNode.SelectNodes("//div[@class='g']");
-
-            string _title, _link, _trash, _text = string.Empty;
-            int _length, _index = 0;
-            int? phoneNumber;
-
-            foreach (HtmlNode graph in graphGoogle)
-            {
-                _title = Helpers.ConvertStringToUTF8(graph.ChildNodes[1].ChildNodes[0].ChildNodes[0].InnerText.Split(",".ToCharArray()).FirstOrDefault());
-                _text = graph.ChildNodes[1].ChildNodes[0].ChildNodes[1].ChildNodes[1].InnerText.Split(";".ToCharArray()).ElementAt(1);
-
-                if (!string.IsNullOrEmpty(_text))
-                {
-                    phoneNumber = GetPhoneNumber(_text, 7, 9);
-
-                    if (phoneNumber != null)
-                    {
-                        result.Title = _title.Trim();
-                        result.Text = phoneNumber.ToString();
-                        result.Status = true;
-
-                        return result;
-                    }
-                }
-
-            }
-
-
-            foreach (HtmlNode item in divsGoogle)
-            {
-                if (item.ChildNodes.Count == 1)
-                {
-                    HtmlDocument innerDiv = new HtmlDocument();
-                    innerDiv.LoadHtml(item.InnerHtml.ToString());
-
-                    HtmlNodeCollection divs = innerDiv.DocumentNode.SelectNodes("//div");
-
-                    _title = Helpers.ConvertStringToUTF8(divs[0].ChildNodes[0].ChildNodes[1].InnerText.Split(",".ToCharArray()).FirstOrDefault());
-                    _text = divs[0].ChildNodes[0].ChildNodes[0].InnerText;
-
-                    if (!string.IsNullOrEmpty(_text))
-                    {
-                        phoneNumber = GetPhoneNumber(_text, 7, 9);
-
-                        if (phoneNumber != null)
-                        {
-                            result.Title = _title.Trim();
-                            result.Text = phoneNumber.ToString();
-                            result.Status = true;
-
-                            return result;
-                        }
-                    }
-
-                }
-
-                if (item.ChildNodes.Count == 2)
-                {
-                    _title = Helpers.ConvertStringToUTF8(item.ChildNodes[0].InnerText);
-                    _link = item.ChildNodes[0].ChildNodes[0].Attributes["href"].Value;
-                    _link = _link.Replace("/url?q=", "");
-
-                    _length = _link.Length;
-                    _index = _link.IndexOf("&amp");
-
-                    _trash = _link.Substring(_index, _length - _index);
-                    _link = _link.Replace(_trash, "");
-
-                    _text = Helpers.ConvertStringToUTF8(item.ChildNodes[1].ChildNodes[1].InnerText);
-
-                    if (!string.IsNullOrEmpty(_text))
-                    {
-                        phoneNumber = GetPhoneNumber(_text, 7, 9);
-
-                        if (phoneNumber != null)
-                        {
-                            result.Title = _title;
-                            result.Text = phoneNumber.ToString();
-                            result.Link = _link;
-                            result.Status = true;
-
-                            return result;
-                        }
-                    }
-
-                    //_result = $"Título: {_title}, Link: {_link}, Texto: {_text}";
-
-                }
-            }
-
-            result.Text = "No se ha encontrado el número";
-
-            return result;
-        }
-
-        internal static int? GetPhoneNumber(string text, int min, int max)
-        {
-            text = new String(text.ToCharArray().Where(c => Char.IsDigit(c)).ToArray()); //Get only digits
-
-            bool isValidDigits = false;
-
-            for (int i = min; i < max + 1; i++)
-            {
-                isValidDigits = Regex.Match(text, @"^([0-9]{" + i + "})$").Success;
-
-                if (isValidDigits)
-                {
-                    break;
-                }
-            }
-
-            if (isValidDigits)
-            {
-                return int.Parse(text);
-            }
-
-            return null;
         }
 
 
