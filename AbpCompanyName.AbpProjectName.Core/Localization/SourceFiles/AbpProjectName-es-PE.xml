@@ -78,5 +78,8 @@
 
     <text name="EditUser" value="Editar Usuario" />
     <text name="EditRole" value="Editar Permiso" />
+
+    <text name="Tools" value="Herramientas" />
+
   </texts>
 </localizationDictionary>

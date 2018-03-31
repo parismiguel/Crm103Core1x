@@ -1,4 +1,5 @@
-﻿using AbpCompanyName.AbpProjectName.Web.Mvc.Controllers;
+﻿using AbpCompanyName.AbpProjectName.Web.Models;
+using AbpCompanyName.AbpProjectName.Web.Mvc.Controllers;
 using HtmlAgilityPack;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
@@ -8,6 +9,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Net.Http;
 using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -247,6 +249,57 @@ namespace TemplateCoreParis.Helpers
                     }
                 }
 
+            }
+
+            result.Text = "No se ha encontrado el número";
+
+            return result;
+        }
+
+
+        public static async Task<ResultGoogle> GetGoogleSearchCustomAsync(string query)
+        {
+            string apiKey = "AIzaSyB6iXqwJKgIciHt1xd5P7KjoLqNf9lAGcg"; //https://console.developers.google.com/apis/credentials?project=crm103core
+            string context = "000820817763802558027:dtcz5fl4u4y"; //https://cse.google.com/cse/setup/basic?cx=000820817763802558027%3Adtcz5fl4u4y
+
+            ResultGoogle result = new ResultGoogle();
+
+            using (var client = new HttpClient())
+            {
+                try
+                {
+                    client.BaseAddress = new Uri("https://www.googleapis.com");
+                    HttpResponseMessage fetch = await client.GetAsync($"/customsearch/v1?key={apiKey}&cx={context}&q={query}&num=3");
+                    fetch.EnsureSuccessStatusCode();
+
+                    string stringResult = await fetch.Content.ReadAsStringAsync();
+
+                    GoogleCustomSearchResult response = JsonConvert.DeserializeObject<GoogleCustomSearchResult>(stringResult);
+
+                    foreach (Item item in response.items)
+                    {
+                        if (item.pagemap?.localbusiness != null)
+                        {
+                            int? phoneNumber = GetPhoneNumber(item.pagemap.localbusiness[0].telephone);
+
+                            result.Title = item.pagemap.localbusiness[0].name;
+                            result.Text = phoneNumber.ToString();
+                            result.Link = item.link;
+                            result.Status = true;
+                            result.DocumentString = JsonConvert.SerializeObject(item);
+
+                            return result;
+                        }
+
+
+                    }
+
+
+                }
+                catch (HttpRequestException e)
+                {
+                    Console.WriteLine(e.Message);
+                }
             }
 
             result.Text = "No se ha encontrado el número";

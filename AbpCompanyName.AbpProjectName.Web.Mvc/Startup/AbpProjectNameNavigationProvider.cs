@@ -45,12 +45,33 @@ namespace AbpCompanyName.AbpProjectName.Web.Startup
                         requiredPermissionName: PermissionNames.Pages_Roles
                     )
                 ).AddItem(
+                    new MenuItemDefinition(
+                        PageNames.About,
+                        L("About"),
+                        url: "About",
+                        icon: "info"
+                    )
+                ).AddItem(
                 new MenuItemDefinition(
-                    PageNames.About,
-                    L("About"),
-                    url: "About",
-                    icon: "info"
-                ));
+                   PageNames.Tools,
+                   L("Tools"),
+                   icon: "menu"
+               ).AddItem(
+                       new MenuItemDefinition(
+                           "GooglePhoneSearch",
+                           new FixedLocalizableString("Búsqueda teléfono Google"),
+                           url: "Tools/GooglePhoneSearch",
+                           icon: "search"
+                       )
+                   ).AddItem(
+                       new MenuItemDefinition(
+                           "CustomPhoneSearch",
+                           new FixedLocalizableString("Búsqueda teléfono Personalizada"),
+                           url: "Tools/CustomPhoneSearch",
+                           icon: "search"
+                       )
+                   )
+               );
         }
 
         //).AddItem( //Menu items below is just for demonstration!

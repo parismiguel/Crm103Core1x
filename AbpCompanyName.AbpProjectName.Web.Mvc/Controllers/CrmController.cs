@@ -192,6 +192,83 @@ namespace AbpCompanyName.AbpProjectName.Web.Mvc.Controllers
         }
 
 
+        [HttpPost]
+        [AllowAnonymous]
+        [IgnoreAntiforgeryToken]
+        public async Task<JsonResult> GetPhoneNumberCustomAsync(string text)
+        {
+            Response response = new Response();
+            ResultGoogle resultGoogle = new ResultGoogle();
+
+            if (string.IsNullOrEmpty(text))
+            {
+                response.Message = "Texto vacío o nulo";
+                return Json(response);
+            }
+
+            try
+            {
+                //Get Entities using NLU
+
+                string _entity = string.Empty;
+
+                string _textModified = text.ToLower();
+
+                if (!_textModified.Contains("lima"))
+                {
+                    _textModified = _textModified + " Lima";
+                }
+
+                if (!_textModified.Contains("perú") && !_textModified.Contains("peru"))
+                {
+                    _textModified = _textModified + " Perú";
+                }
+
+                if (!_textModified.Contains("teléfono") && !_textModified.Contains("telefono"))
+                {
+                    _textModified = "Teléfono " + _textModified;
+                }
+
+                resultGoogle = await Helpers.GetGoogleSearchCustomAsync(_textModified);
+
+                response.Status = resultGoogle.Status;
+                response.Data = resultGoogle.DocumentString;
+
+                if (Regex.IsMatch(resultGoogle.Text, @"^\d+$"))
+                {
+                    if (string.IsNullOrEmpty(_entity))
+                    {
+                        response.Message = $"El número de teléfono de {resultGoogle.Title} es: {resultGoogle.Text}";
+
+                    }
+                    else
+                    {
+                        response.Message = $"El número de teléfono de {_entity} es: {resultGoogle.Text}";
+                    }
+                }
+                else
+                {
+                    response.Message = "No se ha encontrado un número. Por favor, vuelva a intentarlo.";
+                }
+
+
+            }
+            catch (ArgumentException e)
+            {
+                response.Trace = e.StackTrace;
+                response.Message = e.Message;
+            }
+            catch (Exception e)
+            {
+                response.Trace = e.StackTrace;
+                response.Message = e.Message;
+            }
+
+            return Json(response);
+
+        }
+
+
     }
 
     public class SavePersonModel

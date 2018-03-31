@@ -77,5 +77,8 @@
     <text name="Actions">Actions</text>
 
     <text name="CouldNotCompleteLoginOperation">Could not complete login operation. Please try again later.</text>
+
+    <text name="Tools" value="Tools" />
+
   </texts>
 </localizationDictionary>

@@ -1,0 +1,96 @@
+﻿@using AbpCompanyName.AbpProjectName.Web.Startup
+@{
+    ViewBag.CurrentPageName = PageNames.About; //The menu item will be active for this page.
+}
+<div class="row clearfix">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="card">
+            <div class="header">
+                <h2 class="alert alert-info">
+                    Consulta de teléfono de empresa en Google con NLU
+                </h2>
+            </div>
+            <div class="body">
+                <div class="row clearfix">
+                    <div class="col-md-6">
+                        <div class="form-group form-float">
+                            <div class="form-line focused">
+                                <input id="query" type="text" name="query" class="validate form-control" placeholder="Ingrese su consulta">
+                                <label for="query" class="form-label">Consulta</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button id="btnCallApi" type="button" class="btn btn-primary save-button waves-effect" onclick="CallCrmApiAjax()">Procesar</button>
+
+                <div class="row clearfix" style="margin-top:2rem;">
+
+                    <p id="textResult" class="alert-warning" style="margin:1.5rem; color:white;padding:1rem;"></p>
+
+                    <div id="jsonResult"></div>
+                </div>
+
+                <div class="row clearfix" style="margin-top:2rem;">
+                    <div id="htmlRender"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+
+    <script src="~/lib/renderjson.js"></script>
+
+    @*https://aspnetboilerplate.com/Pages/Documents/Javascript-API/AJAX*@
+
+    <script type="text/javascript">
+
+        var toastOptions = {
+            "closeButton": true,
+            "positionClass": "toast-top-right"
+        };
+
+        $(document).keypress(function (e) {
+            if (e.which == 13) {
+                $("#btnCallApi").click();
+            }
+        });
+
+        function CallCrmApiAjax(){
+            var $text = $("#query").val();
+
+            if ($text === null || $text === "" || $text === undefined) {
+
+                abp.notify.warn("Debe ingresar su consulta", "Alerta", toastOptions);
+                return;
+            }
+
+           var query = {
+                text: $text
+            };
+
+            $("div.page-loader-wrapper").css("display", "block");
+
+            abp.ajax({
+                url: '/Crm/GetPhoneNumber?text=' + $text,
+                data: JSON.stringify(query)
+            }).done(function (data) {
+                $("#textResult").text(data.message);
+
+                $("#jsonResult").html(renderjson.set_show_to_level(4)(data));
+
+                $("#htmlRender").html(data.data);
+
+                $("div.page-loader-wrapper").css("display", "none");
+
+                abp.notify.success('Proceso exitoso!');
+
+                }).fail(function (err) {
+                    $("div.page-loader-wrapper").css("display", "none");
+                    abp.notify.error(err, "Error", toastOptions);
+                });
+        }
+
+    </script>
+}
