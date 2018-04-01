@@ -270,7 +270,7 @@ namespace TemplateCoreParis.Helpers
                 try
                 {
                     client.BaseAddress = new Uri("https://www.googleapis.com");
-                    HttpResponseMessage fetch = await client.GetAsync($"/customsearch/v1?key={apiKey}&cx={context}&q={query}&num=3");
+                    HttpResponseMessage fetch = await client.GetAsync($"/customsearch/v1?key={apiKey}&cx={context}&q={query}&num=10");
                     fetch.EnsureSuccessStatusCode();
 
                     string stringResult = await fetch.Content.ReadAsStringAsync();
@@ -281,10 +281,22 @@ namespace TemplateCoreParis.Helpers
                     {
                         if (item.pagemap?.localbusiness != null)
                         {
-                            int? phoneNumber = GetPhoneNumber(item.pagemap.localbusiness[0].telephone);
+
+                            if (string.IsNullOrEmpty(item.pagemap.localbusiness[0].telephone))
+                            {
+                                continue;
+                            }
+
+                            result.Text = item.pagemap.localbusiness[0].telephone;
+
+                            int? phoneNumber = GetPhoneNumber(result.Text);
+
+                            if (phoneNumber!=null)
+                            {
+                                result.Text = phoneNumber.ToString();
+                            }
 
                             result.Title = item.pagemap.localbusiness[0].name;
-                            result.Text = phoneNumber.ToString();
                             result.Link = item.link;
                             result.Status = true;
                             result.DocumentString = JsonConvert.SerializeObject(item);
@@ -295,6 +307,7 @@ namespace TemplateCoreParis.Helpers
 
                     }
 
+                    result.DocumentString = JsonConvert.SerializeObject(response);
 
                 }
                 catch (HttpRequestException e)
